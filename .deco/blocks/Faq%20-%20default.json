@@ -1,1 +1,36 @@
-{"title":"FAQs","__resolveType":"site/sections/Faq.tsx"}
+{
+  "title": "FAQs",
+  "__resolveType": "site/sections/Faq.tsx",
+  "questions": [
+    {
+      "title": "Por que Alumni?",
+      "answer": "<p><span style=\"color: rgb(0, 0, 0)\">O Alumni de um curso é formado por pessoas que já terminaram aquela graduação e por isso são suspeitas a falar acerca da vida acadêmica e dos caminhos possíveis a serem tomados.&nbsp; Além disso, encontrar e ouvir histórias de sucesso de pessoas que vieram do mesmo curso em que você está inserido é uma incrível forma de motivar os estudantes a buscarem ir ainda mais longe.</span></p>"
+    },
+    {
+      "title": "O que é uma Mentoria?",
+      "answer": "<p><span style=\"color: rgb(0, 0, 0)\">A mentoria é um processo no qual uma pessoa com experiência (Mentor)&nbsp; ajuda outra pessoa (Mentorado) a desenvolver os seus objetivos e as suas habilidades por meio de conversas individuais (one-on-one) com ela.</span></p>"
+    },
+    {
+      "title": "Qual é o papel do mentor?",
+      "answer": "<p><span style=\"color: rgb(0, 0, 0)\">O papel do mentor é participar do processo com o seu mentorado e fornecer orientação e apoio com base em sua experiência pessoal de vida, tanto acadêmica quanto sobre o mercado de trabalho.</span></p>"
+    },
+    {
+      "title": "Qual é o papel do Mentorado?",
+      "answer": "<p><span style=\"color: rgb(0, 0, 0)\">O papel do estudante mentorado é se envolver e participar do processo com o seu mentor para obter orientação sobre caminhos de desenvolvimento, exploração da carreira, definição de metas e tomadas de decisão.</span></p>"
+    },
+    {
+      "title": "O que é o nosso projeto?",
+      "answer": "<p><span style=\"color: rgb(0, 0, 0)\">Uma rede de apoio aos estudantes em graduação que estão no 3° ou 4° período do curso, a fim de desenvolver suas habilidades interpessoais e acadêmicas, guiando-os em tomadas de decisão e caminhos de carreira que escolham seguir.</span></p>"
+    },
+    {
+      "title": "Principais pontos positivos do programa:",
+      "answer": "<p><span style=\"color: rgb(0, 0, 0)\">* Construção de bons networkings;</span></p><p><span style=\"color: rgb(0, 0, 0)\">* ⁠Obtenção de orientação em como tirar o máximo proveito de sua graduação;</span></p><p><span style=\"color: rgb(0, 0, 0)\">* ⁠Encontrar caminhos para seguir a partir do seu curso;</span></p><p><span style=\"color: rgb(0, 0, 0)\">* ⁠Ouvir diferentes pontos de vista;</span></p><p><span style=\"color: rgb(0, 0, 0)\">* ⁠Melhorar a capacidade de entrar/crescer em seu estágio/emprego.</span></p>"
+    }
+  ],
+  "description": "Perguntas frequentes",
+  "cta": {
+    "href": "Perguntas frequentes",
+    "text": "A finalidade principal do FAQ é tirar dúvidas dos clientes e informá-los sobre os assuntos mais importantes da sua empresa.  Para isso, em uma seção de perguntas frequentes é preciso ter todas as dúvidas que os seus usuários possam ter e os temas que mais causam impactos para eles.",
+    "outline": true
+  }
+}

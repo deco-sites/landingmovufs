@@ -1,1 +1,50 @@
-{"name":"Home","path":"/","sections":[{"__resolveType":"Header"},{"__resolveType":"site/sections/Hero.tsx","title":"<p>Click here to tweak this text however you want.</p>","cta":[],"description":"This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."},{"__resolveType":"site/sections/Logos.tsx"},{"__resolveType":"site/sections/ImageWithParagraph.tsx","placement":"right"},{"__resolveType":"site/sections/ImageWithParagraph.tsx"},{"__resolveType":"site/sections/BlogPosts.tsx"},{"__resolveType":"site/sections/Testimonials.tsx"},{"__resolveType":"site/sections/Faq.tsx"},{"__resolveType":"Footer"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Conectando:</p><p> Alunos, Sonhos e Futuro</p>",
+      "cta": [],
+      "description": "Programa"
+    },
+    {
+      "__resolveType": "site/sections/Logos.tsx",
+      "title": "Nossos Parceiros:",
+      "logos": [
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/d409710d-d532-4b75-a2b0-09fd35cd8f44"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/6af90cb5-6a0a-4ec8-8c22-ad26208ed7ae"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/1068c5e0-d7ab-4cc6-8a34-527cf432f277"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "placement": "right"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}
