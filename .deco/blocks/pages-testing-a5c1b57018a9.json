@@ -37,7 +37,21 @@
       "__resolveType": "site/sections/BlogPosts.tsx"
     },
     {
-      "__resolveType": "site/sections/Testimonials.tsx"
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "slides": [
+        {
+          "content": {
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/28ecdf81-f37f-4cbb-b036-13cdfd615a05",
+            "name": "Itamar Rocha Filho",
+            "position": "Engenheiro de Software na deco | Anteriormente na Google e na Meta",
+            "description": "Ter tido a oportunidade de aprender com pessoas mais experientes e ser mentorado por ex-alunos/excelentes profissionais de outras universidades do Brasil e fora foi essencial para minha trajetória. Com eles pude encurtar meus caminhos e entender lições complexas sobre carreira e liderança bem mais cedo.",
+            "alt": "Foto Itamar"
+          }
+        }
+      ],
+      "title": "Qual o impacto da mentoria na vida das pessoas?",
+      "dots": false,
+      "interval": 1
     },
     {
       "__resolveType": "site/sections/Faq.tsx"
