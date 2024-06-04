@@ -47,11 +47,20 @@
             "description": "Ter tido a oportunidade de aprender com pessoas mais experientes e ser mentorado por ex-alunos/excelentes profissionais de outras universidades do Brasil e fora foi essencial para minha trajetória. Com eles pude encurtar meus caminhos e entender lições complexas sobre carreira e liderança bem mais cedo.",
             "alt": "Foto Itamar"
           }
+        },
+        {
+          "content": {
+            "description": "Poder conversar e tirar dúvidas com pessoas que já chegaram onde eu queria chegar foram um grande facilitador na minha carreira. Através de mentorias pude usufruir da sabedoria de outros pesquisadores e engenheiros que eu admirava bastante.",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/5526fdbc-e7a8-489b-93b7-1e3c14c9d3da",
+            "alt": "Foto de João Pedro",
+            "name": "João Pedro Vasconcelos",
+            "position": "Engenheiro de Software na Microsoft | Anteriormente no MIT e na Amazon"
+          }
         }
       ],
       "title": "Qual o impacto da mentoria na vida das pessoas?",
-      "dots": false,
-      "interval": 1
+      "dots": true,
+      "arrows": true
     },
     {
       "__resolveType": "site/sections/Faq.tsx"
