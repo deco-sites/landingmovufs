@@ -12,31 +12,6 @@
       "description": "Programa"
     },
     {
-      "__resolveType": "site/sections/Logos.tsx",
-      "title": "Nossos Parceiros:",
-      "logos": [
-        {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/d409710d-d532-4b75-a2b0-09fd35cd8f44"
-        },
-        {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/6af90cb5-6a0a-4ec8-8c22-ad26208ed7ae"
-        },
-        {
-          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/1068c5e0-d7ab-4cc6-8a34-527cf432f277"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right"
-    },
-    {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
-    },
-    {
-      "__resolveType": "site/sections/BlogPosts.tsx"
-    },
-    {
       "__resolveType": "site/sections/Testimonials.tsx",
       "slides": [
         {
@@ -63,7 +38,31 @@
       "arrows": true
     },
     {
-      "__resolveType": "site/sections/Faq.tsx"
+      "__resolveType": "site/sections/Faq.tsx",
+      "title": "FAQs",
+      "description": " Frequently Asked Questions - Perguntas frequentes",
+      "questions": [
+        {
+          "title": "O que é o nosso projeto?",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0)\">Uma </span><strong><span style=\"color: rgb(0, 0, 0)\">rede de apoio</span></strong><span style=\"color: rgb(0, 0, 0)\"> aos estudantes em graduação que estão, prioritariamente, no</span><strong><span style=\"color: rgb(0, 0, 0)\"> 3° ou 4° período</span></strong><span style=\"color: rgb(0, 0, 0)\"> do curso, a fim de desenvolver suas habilidades interpessoais e acadêmicas, guiando-os em tomadas de decisão e caminhos de carreira que escolham seguir.</span></p>"
+        },
+        {
+          "title": "O que é uma Mentoria?",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0)\">A mentoria é um </span><strong><span style=\"color: rgb(0, 0, 0)\">processo prático</span></strong><span style=\"color: rgb(0, 0, 0)\"> de troca de conhecimento, no qual uma pessoa com experiência</span><strong><span style=\"color: rgb(0, 0, 0)\"> </span></strong><span style=\"color: rgb(0, 0, 0)\">(Mentor)&nbsp;ajuda outra pessoa (Mentorado)</span><strong><span style=\"color: rgb(0, 0, 0)\"> </span></strong><span style=\"color: rgb(0, 0, 0)\">a </span><strong><span style=\"color: rgb(0, 0, 0)\">desenvolver</span></strong><span style=\"color: rgb(0, 0, 0)\"> os</span><strong><span style=\"color: rgb(0, 0, 0)\"> </span></strong><span style=\"color: rgb(0, 0, 0)\">seus objetivos pessoais e as suas</span><strong><span style=\"color: rgb(0, 0, 0)\"> </span></strong><span style=\"color: rgb(0, 0, 0)\">habilidades por meio de conversas e de encontros.</span></p>"
+        },
+        {
+          "title": "Qual é o papel do Mentor?",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0)\">O </span><strong><span style=\"color: rgb(0, 0, 0)\">papel do</span></strong><span style=\"color: rgb(0, 0, 0)\"> </span><strong><span style=\"color: rgb(0, 0, 0)\">mentor</span></strong><span style=\"color: rgb(0, 0, 0)\"> é participar do processo com o seu mentorado e </span><strong><span style=\"color: rgb(0, 0, 0)\">fornecer orientação</span></strong><span style=\"color: rgb(0, 0, 0)\"> e apoio com base em sua experiência pessoal de vida, tanto acadêmica quanto sobre o mercado de trabalho, a fim de ajudar o mentorado a se desenvolver e tomar as melhores decisões.</span></p>"
+        },
+        {
+          "title": "Por que Alumni?",
+          "answer": "<p>O <strong>Alumni</strong> de um curso é formado por pessoas que já <strong>terminaram a graduação</strong> e por isso são suspeitas a falar acerca da vida acadêmica e dos caminhos possíveis a serem tomados a partir da graduação.&nbsp;Além disso, o fato de ouvir histórias de sucesso de pessoas que vieram do mesmo curso em que você está inserido é uma incrível forma de motivar os estudantes a buscarem ir ainda mais longe.</p>"
+        },
+        {
+          "title": "Como participar?",
+          "answer": "<p>a</p>"
+        }
+      ]
     },
     {
       "__resolveType": "Footer"
