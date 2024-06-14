@@ -7,9 +7,8 @@
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>Conectando:</p><p> Alunos, Sonhos e Futuro</p>",
-      "cta": [],
-      "description": "MentorUNI"
+      "title": "<p>Conectando:</p><p>Alunos, Sonhos e Futuro</p>",
+      "cta": []
     },
     {
       "__resolveType": "Preview /sections/ImageWithParagraph.tsx"
