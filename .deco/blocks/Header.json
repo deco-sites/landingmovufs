@@ -1,10 +1,33 @@
 {
   "__resolveType": "site/sections/Header.tsx",
   "navigation": {
-    "links": [],
-    "buttons": []
+    "links": [
+      {
+        "label": "Sobre",
+        "url": "#sobre"
+      },
+      {
+        "label": "Parceiros",
+        "url": "#parcerios"
+      },
+      {
+        "label": "Depoimentos",
+        "url": "#depoimentos"
+      },
+      {
+        "label": "FAQ",
+        "url": "#faq"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Participe",
+        "href": "#participe",
+        "outline": false
+      }
+    ]
   },
   "logo": {
-    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/5f96ffa8-b7ad-40cc-9ded-a2db450235a5"
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/eadc7765-4178-4596-be68-a4af2882e5c9"
   }
 }
