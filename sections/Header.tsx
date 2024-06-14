@@ -66,7 +66,7 @@ export default function Header({
               </li>
             ))}
           </ul>
-          <ul class="flex gap-3 ml-8">
+          <ul class="flex gap-3 ml-8 mr-8">
             {navigation.buttons?.map((item) => (
               <a
                 key={item?.id}
