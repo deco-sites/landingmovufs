@@ -5,14 +5,14 @@ export interface CTA {
   id?: string;
   href: string;
   text: string;
-  style?: "Outline" | "Ghost";
+  style?: "Outline" | "Ghost" | "Normal";
 }
 
 export interface Props {
   title?: string;
   /** @format textarea */
   description?: string;
-  tagline?: string;
+  // tagline?: string;
   image?: ImageWidget;
   placement?: "left" | "right";
   cta?: CTA[];
@@ -34,7 +34,7 @@ export default function ImageWithParagraph({
   title = "Here's an intermediate size heading you can edit",
   description =
     "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-  tagline = "Tagline",
+  // tagline = "Tagline",
   image = DEFAULT_IMAGE,
   placement = "left",
   disableSpacing,
@@ -65,10 +65,8 @@ export default function ImageWithParagraph({
           />
         </div>
         <div class="w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10">
-          <p class="text-sm font-semibold">
-            {tagline}
-          </p>
-          <p class="text-4xl leading-snug">
+
+          <p class="text-4xl leading-snug text-primary">
             {title}
           </p>
           <p class="leading-normal">
@@ -82,7 +80,8 @@ export default function ImageWithParagraph({
                 href={item?.href}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
                 class={`font-normal btn btn-primary
-                  ${!item.style || item.style == "Outline" && "btn-outline"}
+                  ${!item.style || item.style == "Normal" && "btn-primary"}
+                  ${item.style == "Outline" && "btn-outline"}
                   ${item.style == "Ghost" && "btn-ghost"}
                 `}
               >

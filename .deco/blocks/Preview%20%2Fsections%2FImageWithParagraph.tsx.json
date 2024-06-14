@@ -1,8 +1,19 @@
 {
   "__resolveType": "site/sections/ImageWithParagraph.tsx",
   "placement": "left",
-  "cta": [],
-  "title": "Sobre a Mentoria",
+  "cta": [
+    {
+      "style": "Normal",
+      "text": "Seja Mentorado",
+      "href": "#mentorado"
+    },
+    {
+      "style": "Outline",
+      "text": "Seja Mentor",
+      "href": "#mentor"
+    }
+  ],
+  "title": "Venha ser Amplia!",
   "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/178f563d-099e-46c8-8e56-cc001876589c",
   "description": "Criamos esse projeto para conectar os atuais alunos dos cursos STEM com o mercado de trabalho e pesquisa através de palestras, cursos, mentorias e contribuições de outros ex-alunos que estão causando impacto."
 }
