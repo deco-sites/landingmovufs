@@ -5,5 +5,8 @@
   "social": [],
   "subscribe": {
     "instructions": "<p></p>"
+  },
+  "logo": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/c823c2a2-fcbe-4f92-b3b1-20c31d130155"
   }
 }
