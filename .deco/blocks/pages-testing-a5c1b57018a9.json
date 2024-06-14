@@ -9,10 +9,14 @@
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>Conectando:</p><p> Alunos, Sonhos e Futuro</p>",
       "cta": [],
-      "description": "Programa"
+      "description": "MentorUNI"
+    },
+    {
+      "__resolveType": "Preview /sections/ImageWithParagraph.tsx"
     },
     {
       "__resolveType": "site/sections/Testimonials.tsx",
+      "title": "Qual o impacto da mentoria na vida das pessoas?",
       "slides": [
         {
           "content": {
@@ -33,7 +37,6 @@
           }
         }
       ],
-      "title": "Qual o impacto da mentoria na vida das pessoas?",
       "dots": true,
       "arrows": true
     },
