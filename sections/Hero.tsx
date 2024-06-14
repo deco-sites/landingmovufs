@@ -40,40 +40,41 @@ export default function HeroFlats({
   ],
 }: Props) {
   return (
-    <nav class="lg:container lg:mx-auto mx-4">
-      <div class="flex flex-col items-center gap-8">
-        <div
-          class={`flex w-full xl:container xl:mx-auto py-20 mx-5 md:mx-10 z-10 flex-col items-center justify-center text-center lg:py-36 gap-12 md:gap-20 items-center`}
-          style={{ backgroundImage: `url(${"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/f1dea53d-067d-4dce-bf5b-164dd0fef4aa"})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
-        >
+    <div style={{ backgroundImage: `url(${"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/f1dea53d-067d-4dce-bf5b-164dd0fef4aa"})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <nav class="lg:container lg:mx-auto mx-4">
+        <div class="flex flex-col items-center gap-8">
           <div
-            class={`mx-6 lg:mx-auto lg:w-full space-y-4 gap-4 flex flex-col items-center justify-center lg:max-w-3xl`}
+            class={`flex w-full xl:container xl:mx-auto py-20 mx-5 md:mx-10 z-10 flex-col items-center justify-center text-center lg:py-36 gap-12 md:gap-20 items-center`}
           >
             <div
-              class="inline-block lg:text-[80px] text-4xl text-primary leading-none font-medium"
-              dangerouslySetInnerHTML={{
-                __html: title,
-              }}
+              class={`mx-6 lg:mx-auto lg:w-full space-y-4 gap-4 flex flex-col items-center justify-center lg:max-w-3xl`}
             >
-            </div>
-            <div class="flex items-center gap-3">
-              {cta?.map((item) => (
-                <a
-                  key={item?.id}
-                  id={item?.id}
-                  href={item?.href}
-                  target={item?.href.includes("http") ? "_blank" : "_self"}
-                  class={`font-normal btn btn-primary ${
-                    item.outline && "btn-outline"
-                  }`}
-                >
-                  {item?.text}
-                </a>
-              ))}
+              <div
+                class="inline-block lg:text-[78px] text-4xl text-primary leading-none font-medium"
+                dangerouslySetInnerHTML={{
+                  __html: title,
+                }}
+              >
+              </div>
+              <div class="flex items-center gap-3">
+                {cta?.map((item) => (
+                  <a
+                    key={item?.id}
+                    id={item?.id}
+                    href={item?.href}
+                    target={item?.href.includes("http") ? "_blank" : "_self"}
+                    class={`font-normal btn btn-primary ${
+                      item.outline && "btn-outline"
+                    }`}
+                  >
+                    {item?.text}
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   );
 }
