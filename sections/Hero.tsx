@@ -44,6 +44,7 @@ export default function HeroFlats({
       <div class="flex flex-col items-center gap-8">
         <div
           class={`flex w-full xl:container xl:mx-auto py-20 mx-5 md:mx-10 z-10 flex-col items-center justify-center text-center lg:py-36 gap-12 md:gap-20 items-center`}
+          style={{ backgroundImage: `url(${"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/f1dea53d-067d-4dce-bf5b-164dd0fef4aa"})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
           <div
             class={`mx-6 lg:mx-auto lg:w-full space-y-4 gap-4 flex flex-col items-center justify-center lg:max-w-3xl`}
