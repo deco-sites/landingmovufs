@@ -53,7 +53,7 @@ export default function Header({
         </a>
 
         <div class="hidden items-center justify-between lg:flex w-full">
-          <ul class="flex">
+          <ul class="flex justify-end flex-grow">
             {navigation.links.map((link) => (
               <li>
                 <a
@@ -66,7 +66,7 @@ export default function Header({
               </li>
             ))}
           </ul>
-          <ul class="flex gap-3">
+          <ul class="flex gap-3 ml-8">
             {navigation.buttons?.map((item) => (
               <a
                 key={item?.id}
