@@ -54,6 +54,9 @@
       "arrows": true
     },
     {
+      "__resolveType": "Preview /sections/Sponsors.tsx"
+    },
+    {
       "__resolveType": "site/sections/Faq.tsx",
       "title": "FAQs",
       "description": " Frequently Asked Questions - Perguntas frequentes",
