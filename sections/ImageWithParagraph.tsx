@@ -65,7 +65,6 @@ export default function ImageWithParagraph({
           />
         </div>
         <div class="w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10">
-
           <p class="text-4xl leading-snug text-primary">
             {title}
           </p>

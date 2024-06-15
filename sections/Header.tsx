@@ -15,7 +15,11 @@ export interface Nav {
     alt?: string;
   };
   navigation?: {
-    links: {
+    leftLinks: {
+      label?: string;
+      url?: string;
+    }[];
+    rightLinks: {
       label?: string;
       url?: string;
     }[];
@@ -30,7 +34,10 @@ export default function Header({
     alt: "Logo",
   },
   navigation = {
-    links: [
+    leftLinks: [
+      { label: "Seja nosso parceiro", url: "/" },
+    ],
+    rightLinks: [
       { label: "Home", url: "/" },
       { label: "About us", url: "/" },
       { label: "Princing", url: "/" },
@@ -51,10 +58,22 @@ export default function Header({
         <a href="/">
           <Image src={logo.src || ""} width={150} height={28} alt={logo.alt} />
         </a>
-
         <div class="hidden items-center justify-between lg:flex w-full">
+          <ul class="flex justify-start flex-grow">
+            {navigation.leftLinks.map((link) => (
+              <li>
+                <a
+                  href={link.url}
+                  aria-label={link.label}
+                  class="link no-underline hover:underline p-4"
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
           <ul class="flex justify-end flex-grow">
-            {navigation.links.map((link) => (
+            {navigation.rightLinks.map((link) => (
               <li>
                 <a
                   href={link.url}
@@ -111,7 +130,14 @@ export default function Header({
           </a>
 
           <ul class="menu">
-            {navigation?.links.map((link) => (
+            {navigation?.rightLinks.map((link) => (
+              <li>
+                <a href={link.url} aria-label={link.label}>
+                  {link.label}
+                </a>
+              </li>
+            ))}
+            {navigation?.leftLinks.map((link) => (
               <li>
                 <a href={link.url} aria-label={link.label}>
                   {link.label}

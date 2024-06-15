@@ -40,7 +40,14 @@ export default function HeroFlats({
   ],
 }: Props) {
   return (
-    <div style={{ backgroundImage: `url(${"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/f1dea53d-067d-4dce-bf5b-164dd0fef4aa"})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <div
+      style={{
+        backgroundImage:
+          `url(${"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/f1dea53d-067d-4dce-bf5b-164dd0fef4aa"})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <nav class="lg:container lg:mx-auto mx-4">
         <div class="flex flex-col items-center gap-8">
           <div

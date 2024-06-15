@@ -1,7 +1,20 @@
 {
   "__resolveType": "site/sections/Header.tsx",
   "navigation": {
-    "links": [
+    "buttons": [
+      {
+        "text": "Participe",
+        "href": "#participe",
+        "outline": false
+      }
+    ],
+    "leftLinks": [
+      {
+        "label": "Seja um patrocinador",
+        "url": "mailto:itamardprf@gmail.com"
+      }
+    ],
+    "rightLinks": [
       {
         "label": "Sobre",
         "url": "#sobre"
@@ -17,13 +30,6 @@
       {
         "label": "FAQ",
         "url": "#faq"
-      }
-    ],
-    "buttons": [
-      {
-        "text": "Participe",
-        "href": "#participe",
-        "outline": false
       }
     ]
   },
