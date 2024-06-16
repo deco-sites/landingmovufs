@@ -167,24 +167,24 @@ function Buttons() {
   return (
     <div class="flex gap-4">
       <div class="flex items-center justify-center z-10 col-start-1 row-start-2">
-        <Slider.PrevButton class="flex items-center justify-center btn-circle border border-base-content">
+        <Slider.NextButton class="flex items-center justify-center btn-circle border border-base-content">
           <Icon
             class="text-base-content"
             size={24}
             id="ArrowRight"
             strokeWidth={3}
           />
-        </Slider.PrevButton>
+        </Slider.NextButton>
       </div>
       <div class="flex items-center justify-center z-10 col-start-3 row-start-2">
-        <Slider.NextButton class="flex items-center justify-center btn-circle border border-base-content">
+        <Slider.PrevButton class="flex items-center justify-center btn-circle border border-base-content">
           <Icon
             class="text-base-content"
             size={24}
             id="ArrowLeft"
             strokeWidth={3}
           />
-        </Slider.NextButton>
+        </Slider.PrevButton>
       </div>
     </div>
   );

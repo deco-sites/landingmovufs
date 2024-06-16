@@ -124,5 +124,13 @@
   "/.deco/blocks/Preview%20%2Fsections%2FSponsors.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Sponsors.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FMaintainers.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Maintainers.tsx"
+  },
+  "/.deco/blocks/Maintainers.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Sponsors.tsx"
   }
 }

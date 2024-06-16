@@ -14,10 +14,10 @@ export default function Sponsors({ images, title }: Props) {
         <h3 class="text-center mb-12 text-3xl font-bold mx-auto">
           {title}
         </h3>
-
-        <div class="flex flex-wrap justify-center items-center">
-          <div class="w-full">
-            <div class="py-6 lg:px-4 lg:pb-4 bg-white rounded flex flex-wrap flex-col items-center gap-8 pt-6 sm:flex-row">
+        <div class="flex items-center align-center">
+          <div class="mx-auto w-1/2 flex">
+            <div class="w-full ">
+              <div class="py-6 lg:px-4 lg:pb-4 lg:pr-0 bg-white rounded flex flex-row items-center justify-center flex-wrap">
               {images && images.map((image) => (
                 <Image
                   src={image}
@@ -31,6 +31,7 @@ export default function Sponsors({ images, title }: Props) {
                   style={{ objectFit: "contain" }}
                 />
               ))}
+              </div>
             </div>
           </div>
         </div>
