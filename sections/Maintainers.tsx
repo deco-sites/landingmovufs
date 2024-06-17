@@ -18,17 +18,17 @@ export default function Sponsors({ images, title }: Props) {
           <div class="mx-auto w-1/2 flex">
             <div class="w-full ">
               <div class="py-6 lg:px-4 lg:pb-4 lg:pr-0 bg-white rounded flex flex-row items-center justify-center flex-wrap">
-              {images && images.map((image) => (
-                <Image
-                  src={image}
-                  alt={image}
-                  decoding="async"
-                  loading="lazy"
-                  sizes="(max-width: 640px) 100vw, 30vw"
-                  class="mx-auto max-w-[198px]"
-                  style={{ objectFit: "contain" }}
-                />
-              ))}
+                {images && images.map((image) => (
+                  <Image
+                    src={image}
+                    alt={image}
+                    decoding="async"
+                    loading="lazy"
+                    sizes="(max-width: 640px) 100vw, 30vw"
+                    class="mx-auto max-w-[198px]"
+                    style={{ objectFit: "contain" }}
+                  />
+                ))}
               </div>
             </div>
           </div>
