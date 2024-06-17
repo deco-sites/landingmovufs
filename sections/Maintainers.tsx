@@ -22,8 +22,6 @@ export default function Sponsors({ images, title }: Props) {
                 <Image
                   src={image}
                   alt={image}
-                  width={640}
-                  height={640}
                   decoding="async"
                   loading="lazy"
                   sizes="(max-width: 640px) 100vw, 30vw"
