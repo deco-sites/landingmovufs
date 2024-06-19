@@ -1,0 +1,21 @@
+{
+  "__resolveType": "site/sections/AlumniGrid.tsx",
+  "alumni": [
+    {
+      "name": "Itamar",
+      "title": "OI",
+      "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/8ff27354-4cad-415a-8b64-55e5af2ec2c2"
+    },
+    {
+      "name": "Jp",
+      "title": "hi",
+      "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/9c99b1bd-8516-4c32-b44f-4466e615d0c8"
+    },
+    {
+      "name": "dad",
+      "title": "adad",
+      "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/5edcc3ae-1f2d-4058-93a7-6eaeed8cba10"
+    }
+  ],
+  "alumniPerRow": 3
+}

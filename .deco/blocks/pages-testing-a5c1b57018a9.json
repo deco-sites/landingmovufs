@@ -62,7 +62,7 @@
     {
       "__resolveType": "site/sections/Faq.tsx",
       "title": "FAQs",
-      "description": " Frequently Asked Questions - Perguntas frequentes",
+      "description": " Frequently Asked Questions  |  Perguntas frequentes",
       "questions": [
         {
           "title": "O que é o nosso projeto?",
@@ -82,9 +82,14 @@
         },
         {
           "title": "Como participar?",
-          "answer": "<p>a</p>"
+          "answer": "<p>Ficamos <strong>muito felizes</strong> em saber que você se interessou! Para participar basta estar <strong>alinhado</strong> a algum dos <strong>perfis</strong> que estamos buscando e por conta disso precisamos te conhecer um pouco mais...</p><p></p><p><br><br><a target=\"_self\" rel=\"noopener noreferrer nofollow\" class=\"font-normal btn btn-primary\n                  btn-primary\n                  false\n                  false\n                \" href=\"#mentorado\">Seja Mentorado</a> <a target=\"_self\" rel=\"noopener noreferrer nofollow\" class=\"font-normal btn btn-primary\n                  false\n                  btn-outline\n                  false\n                \" href=\"#mentor\">Seja Mentor</a></p>"
         }
-      ]
+      ],
+      "cta": {
+        "outline": false,
+        "href": "#saibamais",
+        "text": "Saiba mais"
+      }
     },
     {
       "__resolveType": "Footer"
