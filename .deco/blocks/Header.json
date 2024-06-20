@@ -17,15 +17,19 @@
     "rightLinks": [
       {
         "label": "Sobre",
-        "url": "#sobre"
-      },
-      {
-        "label": "Parceiros",
-        "url": "#parcerios"
+        "url": "/saiba-mais"
       },
       {
         "label": "Depoimentos",
         "url": "#depoimentos"
+      },
+      {
+        "label": "Mantenedores",
+        "url": "#mantenedores"
+      },
+      {
+        "label": "Parceiros",
+        "url": "#parcerios"
       },
       {
         "label": "FAQ",
