@@ -92,7 +92,16 @@
       }
     },
     {
-      "__resolveType": "Footer"
+      "__resolveType": "site/sections/Footer.tsx",
+      "links": [],
+      "bottomLinks": [],
+      "social": [],
+      "subscribe": {
+        "instructions": "<p></p>"
+      },
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/a89a52a8-d3ba-4bfb-946b-039c46b0cc56"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
