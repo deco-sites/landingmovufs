@@ -24,7 +24,7 @@ export interface Props {
 
 function Faq({ questions, title, titlePosition, description, cta }: Props) {
   return (
-    <div class="container mx-auto px-8 flex flex-col items-center gap-4 py-8">
+    <div id="faq" class="container mx-auto px-8 flex flex-col items-center gap-4 py-8">
         <p class="text-4xl leading-snug">
         {title}
         </p>

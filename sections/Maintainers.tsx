@@ -9,7 +9,7 @@ export interface Props {
 
 export default function Sponsors({ images, title }: Props) {
   return (
-    <section class="pt-4 pb-32 max-w-6xl mx-auto">
+    <section id="mantenedores" class="pt-4 pb-32 max-w-6xl mx-auto">
       <div class="mx-auto">
         <h3 class="text-center mb-12 text-3xl font-bold mx-auto">
           {title}
