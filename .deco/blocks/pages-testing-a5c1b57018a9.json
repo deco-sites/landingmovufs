@@ -93,18 +93,7 @@
       "titlePosition": "column"
     },
     {
-      "__resolveType": "site/sections/Footer.tsx",
-      "links": [],
-      "bottomLinks": [],
-      "social": [],
-      "subscribe": {
-        "instructions": "<p></p>",
-        "title": "Entra seu e-mail para ficar sabendo das novidades do nosso projeto!",
-        "description": "Vamos mudar o Brasil juntos :)"
-      },
-      "logo": {
-        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/a89a52a8-d3ba-4bfb-946b-039c46b0cc56"
-      }
+      "__resolveType": "Footer"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

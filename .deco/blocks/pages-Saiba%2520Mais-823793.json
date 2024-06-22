@@ -1,0 +1,22 @@
+{
+  "name": "Saiba Mais",
+  "path": "/saiba-mais",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/MarkdownParagraph.tsx",
+      "title": "Sobre o Amplia Tech",
+      "date": "2024-06-22",
+      "content": "<h1>Surgimento</h1><p></p><p>o projeto nasceu </p>"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

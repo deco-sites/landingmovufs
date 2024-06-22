@@ -4,9 +4,11 @@
   "bottomLinks": [],
   "social": [],
   "subscribe": {
-    "instructions": "<p></p>"
+    "instructions": "<p></p>",
+    "title": "Entra seu e-mail para ficar sabendo das novidades do nosso projeto!",
+    "description": "Vamos mudar o Brasil juntos :)"
   },
   "logo": {
-    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/c823c2a2-fcbe-4f92-b3b1-20c31d130155"
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/a89a52a8-d3ba-4bfb-946b-039c46b0cc56"
   }
 }

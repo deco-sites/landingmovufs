@@ -148,5 +148,15 @@
   "/.deco/blocks/Preview%20%2Fsections%2FStylishFaq.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/StylishFaq.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FMarkdownParagraph.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/MarkdownParagraph.tsx"
+  },
+  "/.deco/blocks/pages-Saiba%2520Mais-823793.json": {
+    "name": "Saiba Mais",
+    "path": "/saiba-mais",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
