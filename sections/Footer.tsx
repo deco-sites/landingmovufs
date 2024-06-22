@@ -12,10 +12,10 @@ export interface Items {
 }
 
 export interface Subscribe {
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
   /** @format rich-text */
-  instructions: string;
+  instructions?: string;
 }
 
 export interface Social {
@@ -86,12 +86,12 @@ export default function Footer({
       "By subscribing you agree to with our <a href='/' target='_blank' class='link'>Privacy Policy</a> and provide consent to receive updates from our company.",
   },
   madeWith = {
-    label: "Made with",
+    label: "Feito na",
     src:
       "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/cc202be0-af57-4b32-b9c9-d1d7dc97bf85",
     href: "https://deco.cx",
   },
-  copyright = "© 2024 deco.cx. All rights reserved.",
+  copyright = "Faça o seu também!",
   bottomLinks = [
     { label: "Privacy Policy", href: "/" },
     { label: "Terms of Service", href: "/" },
@@ -139,7 +139,7 @@ export default function Footer({
               <div class="flex gap-4">
                 <input
                   type="text"
-                  placeholder="Enter your email"
+                  placeholder="seu email"
                   class="w-full input input-bordered input-primary"
                 />
                 <button
@@ -147,12 +147,12 @@ export default function Footer({
                   class="btn btn-outline font-normal"
                   aria-label="Subscribe"
                 >
-                  Subscribe
+                  Inscreva-se
                 </button>
               </div>
               <p
                 class="text-xs"
-                dangerouslySetInnerHTML={{ __html: subscribe.instructions }}
+                dangerouslySetInnerHTML={{ __html: subscribe.instructions ?? "" }}
               >
               </p>
             </form>

@@ -60,7 +60,7 @@
       "__resolveType": "Preview /sections/Sponsors.tsx"
     },
     {
-      "__resolveType": "site/sections/Faq.tsx",
+      "__resolveType": "site/sections/StylishFaq.tsx",
       "title": "FAQs",
       "description": " Frequently Asked Questions  |  Perguntas frequentes",
       "questions": [
@@ -87,9 +87,10 @@
       ],
       "cta": {
         "outline": false,
-        "href": "#saibamais",
+        "href": "#saiba-mais",
         "text": "Saiba mais"
-      }
+      },
+      "titlePosition": "column"
     },
     {
       "__resolveType": "site/sections/Footer.tsx",
@@ -97,7 +98,9 @@
       "bottomLinks": [],
       "social": [],
       "subscribe": {
-        "instructions": "<p></p>"
+        "instructions": "<p></p>",
+        "title": "Entra seu e-mail para ficar sabendo das novidades do nosso projeto!",
+        "description": "Vamos mudar o Brasil juntos :)"
       },
       "logo": {
         "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/a89a52a8-d3ba-4bfb-946b-039c46b0cc56"
