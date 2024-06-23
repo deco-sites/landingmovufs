@@ -43,7 +43,7 @@ export default function ImageWithParagraph({
     { id: "change-me-1", href: "/", text: "Change me", style: "Outline" },
     { id: "change-me-2", href: "/", text: "Change me", style: "Ghost" },
   ],
-  id = "123"
+  id = "123",
 }: Props) {
   return (
     <div id={id} class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm">

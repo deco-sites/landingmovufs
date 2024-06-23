@@ -40,7 +40,8 @@ interface Props {
 
 export default function AlumniSection({
   title = "Our Alumni",
-  description = "Meet some of our successful graduates who have gone on to achieve great things.",
+  description =
+    "Meet some of our successful graduates who have gone on to achieve great things.",
   alumni = [],
   alumniPerRow = 5,
   backgroundColor = "#f3f4f6",
@@ -49,11 +50,22 @@ export default function AlumniSection({
   return (
     <section className={`py-12 bg-[${backgroundColor}]`}>
       <div className="container mx-auto">
-        <h2 className={`text-3xl font-bold mb-4 text-center text-[${textColor}]`}>{title}</h2>
-        <p className={`text-xl text-center mb-8 text-[${textColor}]`}>{description}</p>
-        <div className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-${alumniPerRow} gap-8`}>
+        <h2
+          className={`text-3xl font-bold mb-4 text-center text-[${textColor}]`}
+        >
+          {title}
+        </h2>
+        <p className={`text-xl text-center mb-8 text-[${textColor}]`}>
+          {description}
+        </p>
+        <div
+          className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-${alumniPerRow} gap-8`}
+        >
           {alumni.map((alumnus, index) => (
-            <div key={index} className={`bg-white rounded-3xl shadow-md p-6 text-[${textColor}]`}>
+            <div
+              key={index}
+              className={`bg-white rounded-3xl shadow-md p-6 text-[${textColor}]`}
+            >
               {alumnus.photo && (
                 <img
                   src={alumnus.photo}
@@ -61,7 +73,9 @@ export default function AlumniSection({
                   className="w-32 h-32 rounded-full mx-auto mb-4"
                 />
               )}
-              <h3 className="text-xl font-semibold mb-2 text-center">{alumnus.name}</h3>
+              <h3 className="text-xl font-semibold mb-2 text-center">
+                {alumnus.name}
+              </h3>
               <p className="text-center">{alumnus.title}</p>
             </div>
           ))}

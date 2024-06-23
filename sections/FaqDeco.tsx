@@ -74,7 +74,7 @@ export default function Faq({
         >
         </h2>
         <p class="text-lg text-black">
-            {description}
+          {description}
         </p>
         <div class="flex flex-col gap-[16px]">
           {questions.map((item) => {

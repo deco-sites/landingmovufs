@@ -152,7 +152,9 @@ export default function Footer({
               </div>
               <p
                 class="text-xs"
-                dangerouslySetInnerHTML={{ __html: subscribe.instructions ?? "" }}
+                dangerouslySetInnerHTML={{
+                  __html: subscribe.instructions ?? "",
+                }}
               >
               </p>
             </form>
