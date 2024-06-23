@@ -17,7 +17,7 @@
     "rightLinks": [
       {
         "label": "Sobre",
-        "url": "#sobre"
+        "url": "/saiba-mais"
       },
       {
         "label": "Depoimentos",
@@ -29,7 +29,7 @@
       },
       {
         "label": "Parceiros",
-        "url": "#parcerios"
+        "url": "#parceiros"
       },
       {
         "label": "FAQ",
