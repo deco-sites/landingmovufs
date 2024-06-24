@@ -73,10 +73,6 @@
     "blockType": "apps",
     "__resolveType": "site/apps/site.ts"
   },
-  "/.deco/blocks/Preview%20%2Fsections%2FImageWithParagraph.tsx.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/ImageWithParagraph.tsx"
-  },
   "/.deco/blocks/Preview%20site%2Fsections%2FImageWithParagraph.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/ImageWithParagraph.tsx"

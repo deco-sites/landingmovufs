@@ -70,7 +70,7 @@ export default function ImageWithParagraph({
           <p class="text-4xl leading-snug text-primary">
             {title}
           </p>
-          <p class="leading-normal">
+          <p class="leading-normal" style={{ textAlign: "justify" }}>
             {description}
           </p>
           <div class="flex gap-3 pt-4">
