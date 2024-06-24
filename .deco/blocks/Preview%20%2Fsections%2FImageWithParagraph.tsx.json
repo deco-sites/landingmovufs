@@ -18,5 +18,6 @@
   "description": "O projeto existe para conectar os atuais alunos dos cursos STEM com o mercado de trabalho e pesquisa através de palestras, cursos, mentorias e contribuições de outros ex-alunos que estão causando impacto.\n Muitos profissionais de sucesso estão dispostos a ajudar quem está no início dessa difícil jornada e a voz da experiência pode ser fundamental para alcançar objetivos e sonhos.",
   "disableSpacing": {
     "bottom": true
-  }
+  },
+  "id": "participe"
 }

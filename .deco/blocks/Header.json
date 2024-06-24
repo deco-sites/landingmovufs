@@ -4,7 +4,7 @@
     "buttons": [
       {
         "text": "Participe",
-        "href": "#participe",
+        "href": "/#participe",
         "outline": false
       }
     ],
@@ -21,19 +21,19 @@
       },
       {
         "label": "Depoimentos",
-        "url": "#depoimentos"
+        "url": "/#depoimentos"
       },
       {
         "label": "Mantenedores",
-        "url": "#mantenedores"
+        "url": "/#mantenedores"
       },
       {
         "label": "Parceiros",
-        "url": "#parceiros"
+        "url": "/#parceiros"
       },
       {
         "label": "FAQ",
-        "url": "#faq"
+        "url": "/#faq"
       }
     ]
   },
