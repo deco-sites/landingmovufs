@@ -92,7 +92,7 @@
       ],
       "cta": {
         "outline": false,
-        "href": "#saiba-mais",
+        "href": "/saiba-mais",
         "text": "Saiba mais"
       },
       "titlePosition": "column"
