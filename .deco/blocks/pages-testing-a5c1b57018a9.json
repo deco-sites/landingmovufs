@@ -53,6 +53,15 @@
             "name": "João Pedro Vasconcelos",
             "position": "Engenheiro de Software na Microsoft | Anteriormente no MIT e na Amazon"
           }
+        },
+        {
+          "content": {
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat mollis gravida. Morbi in ullamcorper tortor. Curabitur elementum sapien non molestie lacinia. Vivamus sit amet elementum nisi, ut ultrices lacus. Vestibulum sed interdum purus. Vivamus pellentesque diam ac sem suscipit, vitae vulputate velit tristique.",
+            "avatar": "https://media.licdn.com/dms/image/D4D03AQEBAQTLklT8mw/profile-displayphoto-shrink_800_800/0/1701540202649?e=1724889600&v=beta&t=PRwb_cRtRscwxxBDAGABdV3gOaUypQ62IlFFneBh50Y",
+            "alt": "Foto Luciano",
+            "name": "Luciano Júnior",
+            "position": "CTO na deco.cx"
+          }
         }
       ],
       "dots": false,
