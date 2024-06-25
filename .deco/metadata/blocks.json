@@ -151,5 +151,9 @@
     "blockType": "apps",
     "__resolveType": "site/apps/deco/blog.ts"
   },
-  "/.deco/blocks/deco-records.json": null
+  "/.deco/blocks/deco-records.json": null,
+  "/.deco/blocks/deco-resend.json": {
+    "blockType": "apps",
+    "__resolveType": "site/apps/deco/resend.ts"
+  }
 }
