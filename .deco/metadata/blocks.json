@@ -150,5 +150,6 @@
   "/.deco/blocks/deco-blog.json": {
     "blockType": "apps",
     "__resolveType": "site/apps/deco/blog.ts"
-  }
+  },
+  "/.deco/blocks/deco-records.json": null
 }
