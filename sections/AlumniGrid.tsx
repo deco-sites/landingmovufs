@@ -16,6 +16,7 @@ interface Props {
   alumni?: {
     name: string;
     title: string;
+    subtitle: string;
     /**
      * @description The photo of the alumnus.
      * @widget ImageWidget
@@ -77,6 +78,7 @@ export default function AlumniSection({
                 {alumnus.name}
               </h3>
               <p className="text-center">{alumnus.title}</p>
+              <p className="text-center">{alumnus.subtitle}</p>
             </div>
           ))}
         </div>
