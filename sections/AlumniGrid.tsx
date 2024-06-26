@@ -49,9 +49,9 @@ export default function AlumniSection({
 }: Props) {
   return (
     <section className={`py-12 bg-[${backgroundColor}]`}>
-      <div className="container mx-auto">
+      <div className="container mx-auto py-12 lg:py-28">
         <h2
-          className={`text-3xl font-bold mb-4 text-center text-[${textColor}]`}
+          className={`text-4xl leading-snug lg:w-1/2 pb-12 lg:pb-16 text-center text-[${textColor}]`}
         >
           {title}
         </h2>
@@ -64,13 +64,13 @@ export default function AlumniSection({
           {alumni.map((alumnus, index) => (
             <div
               key={index}
-              className={`bg-white rounded-3xl shadow-md p-6 text-[${textColor}]`}
+              className={`bg-white rounded-2xl shadow-md p-8 text-[${textColor}]`}
             >
               {alumnus.photo && (
                 <img
                   src={alumnus.photo}
                   alt={alumnus.name}
-                  className="w-32 h-32 rounded-full mx-auto mb-4"
+                  className="object-cover w-32 h-32 rounded-full mx-auto mb-4"
                 />
               )}
               <h3 className="text-xl font-semibold mb-2 text-center">

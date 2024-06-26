@@ -2,20 +2,22 @@
   "__resolveType": "site/sections/AlumniGrid.tsx",
   "alumni": [
     {
-      "name": "Itamar",
-      "title": "OI",
-      "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/8ff27354-4cad-415a-8b64-55e5af2ec2c2"
+      "name": "André Costa",
+      "title": "Software Engineer @ Meta | UFPB",
+      "photo": "https://media.licdn.com/dms/image/C5603AQFciJkchSOlcQ/profile-displayphoto-shrink_400_400/0/1613817429587?e=1724889600&v=beta&t=QTBzSYmP-8NSu3gY4cMcH6n2_6snhs_8nFUHcvRDANM"
     },
     {
-      "name": "Jp",
-      "title": "hi",
-      "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/9c99b1bd-8516-4c32-b44f-4466e615d0c8"
+      "name": "Marianne Monteiro",
+      "title": "Research Engineer @ DeepMind",
+      "photo": "https://media.licdn.com/dms/image/C4E03AQGf_bKZjS5ANA/profile-displayphoto-shrink_400_400/0/1534941542085?e=1724889600&v=beta&t=WYT1PMmjMnM6yCh6ONVFz3XWFRcOmbRSBbesqqbYfW4"
     },
     {
-      "name": "dad",
-      "title": "adad",
-      "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/5edcc3ae-1f2d-4058-93a7-6eaeed8cba10"
+      "name": "Luciano Júnior",
+      "title": "CTO @ deco.cx",
+      "photo": "https://media.licdn.com/dms/image/D4D03AQEBAQTLklT8mw/profile-displayphoto-shrink_100_100/0/1701540202649?e=1724889600&v=beta&t=5KGDTtsYKb4mi_3Zc14dq3g5ci9NC3PN8kWo9ASVweE"
     }
   ],
-  "alumniPerRow": 3
+  "alumniPerRow": 3,
+  "title": "Mentores",
+  "description": "Conheça alguns dos ex-alunos que participam do movimento como mentores"
 }
