@@ -10,7 +10,10 @@ export interface CTA {
 
 export interface Props {
   title?: string;
-  /** @format textarea */
+  /**
+   * @title Description
+   * @format rich-text
+   */
   description?: string;
   // tagline?: string;
   image?: ImageWidget;
@@ -70,8 +73,13 @@ export default function ImageWithParagraph({
           <p class="text-4xl leading-snug text-primary">
             {title}
           </p>
-          <p class="leading-normal" style={{ textAlign: "justify" }}>
-            {description}
+          <p
+            class="leading-normal"
+            style={{ textAlign: "justify" }}
+            dangerouslySetInnerHTML={{
+              __html: description,
+            }}
+          >
           </p>
           <div class="flex gap-3 pt-4">
             {cta?.map((item) => (

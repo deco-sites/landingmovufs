@@ -8,14 +8,12 @@
     {
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>Conectando</p><p>Alunos, Sonhos e Futuro</p>",
-      "cta": []
-    },
-    {
-      "__resolveType": "Preview /sections/ImageWithParagraph.tsx"
+      "cta": [],
+      "description": "Trazemos a experiência e a prática para potencializar alunos do ensino superior"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right",
+      "placement": "left",
       "cta": [
         {
           "style": "Normal",
@@ -24,9 +22,33 @@
         }
       ],
       "title": "Sobre o movimento",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/178f563d-099e-46c8-8e56-cc001876589c",
+      "description": "<p>O Amplia é um movimento que conecta alunos do ensino superior com o mercado de trabalho e ajuda a prepará-los para uma carreira de impacto. No futuro, o Brasil é um país protagonista em tecnologia pois é formado por comunidades fortes que colaboram com a educação dos jovens. O Amplia está criando essas comunidades.</p><p>O movimento promove mentorias, palestras, cursos e eventos, com a participação de ex-alunos compromissados com a educação do país. Os profissionais e acadêmicos compartilham suas experiências e ensinam aos alunos participantes. A definição de sucesso do Amplia é que novas empresas e profissionais prosperaram no Brasil através de relacionamentos e aprendizados adquiridos através da nossa comunidade.</p>",
+      "disableSpacing": {
+        "bottom": true,
+        "top": false
+      },
+      "id": "sobre"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "placement": "right",
+      "cta": [
+        {
+          "style": "Normal",
+          "text": "Seja Mentorado",
+          "href": "#mentorado"
+        },
+        {
+          "style": "Outline",
+          "text": "Seja Mentor",
+          "href": "#mentor"
+        }
+      ],
+      "title": "Venha ser Amplia!",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/a089eb08-f09b-448a-95b1-6d9cf080918f",
-      "description": "O movimento é liderado por alunos e ex-alunos Universidades Federais do Brasil (UFs). Além disso, conta com apoio de empresas e organizações em prol da educação. Curtiu nosso projeto e estuda em uma das universidades públicas que atuamos? Vem participar como mentorado! Já é formado? Você pode contribuir como mentor ou patrocinador!\n\nNo botão abaixo você pode saber mais sobre nossa motivação, nosso presente e o nosso futuro. Vem construir um Brasil legal com a gente!",
-      "id": "sobre",
+      "description": "<p>O Amplia é formado por alunos e ex-alunos de universidades públicas brasileiras. Contamos com o apoio de empresas e organizações alinhadas ao nosso propósito com a educação. Nosso principal meio de comunicação é a newsletter, que você pode se inscrever com seu e-mail.</p><p>Para esse momento inicial, estamos buscando dois perfis:</p><p>1) Pessoas que se energizam em contribuir para comunidade, seja compartilhando sua experiência ou atuando na organização do movimento;</p><p>2) Pessoas que desejam aprender e se conectar com profissionais experientes através de palestras e mentorias.</p><p></p>",
+      "id": "participe",
       "disableSpacing": {
         "top": false,
         "bottom": false

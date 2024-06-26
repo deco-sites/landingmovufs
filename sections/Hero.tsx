@@ -17,7 +17,7 @@ export interface Props {
   /**
    * @default This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.
    */
-  // description?: string;
+  description?: string;
   // image?: ImageWidget;
   placement?: "left" | "right";
   cta?: CTA[];
@@ -30,8 +30,8 @@ const PLACEMENT = {
 
 export default function HeroFlats({
   title = "Click here to tweak this text however you want.",
-  // description =
-  //   "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+  description =
+    "This text is fully editable and ready for your personal touch.",
   // image,
   placement = "left",
   cta = [
@@ -63,6 +63,9 @@ export default function HeroFlats({
                 }}
               >
               </div>
+              <p class="text-lg md:text-md leading-[150%]">
+                {description}
+              </p>
               <div class="flex items-center gap-3">
                 {cta?.map((item) => (
                   <a
