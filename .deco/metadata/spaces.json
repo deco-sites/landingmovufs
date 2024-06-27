@@ -415,7 +415,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 21.186440677966107,
+                "width": 24.943820224719104,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -437,7 +437,7 @@
               },
               {
                 "type": "stack",
-                "width": 53.38983050847458,
+                "width": 58.20224719101124,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -459,7 +459,7 @@
               },
               {
                 "type": "stack",
-                "width": 25.423728813559315,
+                "width": 16.853932584269664,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -497,7 +497,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-testing-a5c1b57018a9.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-testing-a5c1b57018a9.json::Preview::world::Preview::%7B%7D": {
