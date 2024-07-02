@@ -93,9 +93,6 @@
       "__resolveType": "Preview /sections/Maintainers.tsx"
     },
     {
-      "__resolveType": "Preview /sections/Sponsors.tsx"
-    },
-    {
       "__resolveType": "site/sections/StylishFaq.tsx",
       "title": "FAQs",
       "description": " Frequently Asked Questions  |  Perguntas frequentes",
