@@ -32,6 +32,7 @@
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Venha ser Amplia!",
       "placement": "right",
       "cta": [
         {
@@ -45,7 +46,6 @@
           "href": "#mentor"
         }
       ],
-      "title": "Venha ser Amplia!",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/a089eb08-f09b-448a-95b1-6d9cf080918f",
       "description": "<p>O Amplia é formado por alunos e ex-alunos de universidades públicas brasileiras. Contamos com o apoio de empresas e organizações alinhadas ao nosso propósito com a educação. Nosso principal meio de comunicação é a newsletter, que você pode se inscrever com seu e-mail.</p><p>Para esse momento inicial, estamos buscando dois perfis:</p><p>1) Pessoas que se energizam em contribuir para comunidade, seja compartilhando sua experiência ou atuando na organização do movimento;</p><p>2) Pessoas que desejam aprender e se conectar com profissionais experientes através de palestras e mentorias.</p><p></p>",
       "id": "participe",
@@ -87,7 +87,8 @@
         }
       ],
       "dots": false,
-      "arrows": true
+      "arrows": true,
+      "href": "depoimentos"
     },
     {
       "__resolveType": "Preview /sections/Maintainers.tsx"

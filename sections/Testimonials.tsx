@@ -36,6 +36,7 @@ export interface Props {
    * @description time (in seconds) to start the carousel autoplay
    */
   interval?: number;
+  href?: string;
 }
 
 const DEFAULT_PROPS = {
@@ -97,6 +98,7 @@ const DEFAULT_PROPS = {
       },
     },
   ],
+  href: "depoimentos"
 };
 
 function SliderItem(
@@ -192,11 +194,11 @@ function Buttons() {
 
 function Carousel(props: Props) {
   const id = useId();
-  const { title, slides, interval } = { ...DEFAULT_PROPS, ...props };
+  const { title, slides, interval, href } = { ...DEFAULT_PROPS, ...props };
 
   return (
     <div
-      id={id}
+      id={href}
       class="min-h-min flex flex-col lg:container md:max-w-6xl lg:mx-auto mx-4 py-12 lg:py-28"
     >
       <h2 class="text-4xl leading-snug lg:w-1/2 pb-12 lg:pb-16">
