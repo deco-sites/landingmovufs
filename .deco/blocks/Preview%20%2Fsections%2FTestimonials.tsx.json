@@ -1,4 +1,10 @@
 {
   "__resolveType": "site/sections/Testimonials.tsx",
-  "slides": []
+  "slides": [
+    {},
+    {},
+    {}
+  ],
+  "arrows": true,
+  "href": "aaaa"
 }

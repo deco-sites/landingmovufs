@@ -206,7 +206,7 @@ function Carousel(props: Props) {
       </h2>
       <Slider
         class="carousel carousel-center w-full col-span-full row-span-full gap-6"
-        rootId={id}
+        rootId={href}
         interval={interval && interval * 1e3}
         infinite
       >
