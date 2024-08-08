@@ -13,7 +13,6 @@
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "left",
       "cta": [
         {
           "style": "Normal",
@@ -22,8 +21,9 @@
         }
       ],
       "title": "Sobre o movimento",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/178f563d-099e-46c8-8e56-cc001876589c",
       "description": "<p>O Amplia é um movimento que conecta alunos do ensino superior com o mercado de trabalho e ajuda a prepará-los para uma carreira de impacto. No futuro, o Brasil é um país protagonista em tecnologia pois é formado por comunidades fortes que colaboram com a educação dos jovens. O Amplia está criando essas comunidades.</p><p>O movimento promove mentorias, palestras, cursos e eventos, com a participação de ex-alunos compromissados com a educação do país. Os profissionais e acadêmicos compartilham suas experiências e ensinam aos alunos participantes. A definição de sucesso do Amplia é que novas empresas e profissionais prosperaram no Brasil através de relacionamentos e aprendizados adquiridos através da nossa comunidade.</p>",
+      "placement": "left",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/178f563d-099e-46c8-8e56-cc001876589c",
       "disableSpacing": {
         "bottom": true,
         "top": false
@@ -89,6 +89,32 @@
       "dots": false,
       "arrows": true,
       "href": "depoimentos"
+    },
+    {
+      "__resolveType": "site/sections/AlumniGrid.tsx",
+      "title": "Mentores",
+      "alumni": [
+        {
+          "name": "João Capim",
+          "title": "Software Engineer @ CapyCom",
+          "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/7131267c-b86d-4820-8896-d4a041251452",
+          "subtitle": "Cientista da Computação pela UFCG"
+        },
+        {
+          "name": "Luana Lagoa",
+          "title": "Research Engineer @ Bamboo",
+          "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/070e73b9-24d4-4d03-ac82-987b0d30d86b",
+          "subtitle": "Cientista da Computação pela UFPB"
+        },
+        {
+          "name": "João Campo Grande",
+          "title": "Tech Lead @ FaceLake",
+          "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/dd93295f-0ae5-495b-8317-978a17de5414",
+          "subtitle": "Cientista da Computação pela UFCG"
+        }
+      ],
+      "alumniPerRow": 3,
+      "description": "Conheça alguns dos ex-alunos que participam do movimento como mentores"
     },
     {
       "__resolveType": "Preview /sections/Maintainers.tsx"
