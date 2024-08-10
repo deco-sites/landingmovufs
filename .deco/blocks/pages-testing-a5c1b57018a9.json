@@ -114,10 +114,21 @@
         }
       ],
       "alumniPerRow": 3,
-      "description": "Conheça alguns dos ex-alunos que participam do movimento como mentores"
+      "description": "Conheça alguns dos ex-alunos que participam do movimento como mentores",
+      "id": "mentores"
     },
     {
       "__resolveType": "Preview /sections/Maintainers.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Sponsors.tsx",
+      "title": "Parceiros",
+      "images": [
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/a3fcec46-ed7d-4cd8-958c-1fc8ab3f6dd9",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/0afc19d5-d3fb-40e9-9507-ab6a076fe5fe",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/e644fab3-5977-40de-bfb7-4a296fba0a94"
+      ],
+      "id": "parceiros"
     },
     {
       "__resolveType": "site/sections/StylishFaq.tsx",
