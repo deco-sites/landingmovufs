@@ -35,18 +35,6 @@
     "blockType": "sections",
     "__resolveType": "site/sections/Hero.tsx"
   },
-  "/.deco/blocks/Preview%20%2Fsections%2Fhero-1.tsx.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/hero-1.tsx"
-  },
-  "/.deco/blocks/Preview%20%2Fsections%2Fhero-2.tsx.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/hero-2.tsx"
-  },
-  "/.deco/blocks/Preview%20Sections%20MyHero.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/myHero.tsx"
-  },
   "/.deco/blocks/Serene%20Coastline.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Theme/Theme.tsx"
@@ -124,10 +112,6 @@
   "/.deco/blocks/Preview%20%2Fsections%2FAlumniGrid.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/AlumniGrid.tsx"
-  },
-  "/.deco/blocks/Preview%20site%2Fsections%2Fhero-1.tsx.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/hero-1.tsx"
   },
   "/.deco/blocks/Preview%20%2Fsections%2FStylishFaq.tsx.json": {
     "blockType": "sections",
