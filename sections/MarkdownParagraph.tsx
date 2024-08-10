@@ -116,8 +116,8 @@ export default function BlogPost(props: Props) {
   });
 
   return (
-    <div className="w-full flex flex-col gap-20 container mx-auto px-4 md:px-0 py-12 lg:py-28">
-      <div className="w-full flex flex-col gap-12 max-w-3xl lg:mx-auto">
+    <div className="w-full flex flex-col gap-8 container mx-auto px-4 md:px-0 py-12 lg:py-28">
+      <div className="w-full flex flex-col gap-8 max-w-3xl lg:mx-auto">
         <h1 className="text-5xl font-bold">{title}</h1>
         <div className="flex items-center gap-4">
           <div className="flex flex-col">
