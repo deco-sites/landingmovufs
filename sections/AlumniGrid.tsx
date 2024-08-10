@@ -37,6 +37,7 @@ interface Props {
    * @format color-input
    */
   textColor?: string;
+  id?: string;
 }
 
 export default function AlumniSection({
@@ -47,12 +48,13 @@ export default function AlumniSection({
   alumniPerRow = 5,
   backgroundColor = "#f3f4f6",
   textColor = "#1f2937",
+  id,
 }: Props) {
   return (
-    <section className={`py-12 bg-[${backgroundColor}]`}>
-      <div className="container mx-auto py-12 lg:py-28">
+    <section className={`py-12 bg-[${backgroundColor}]`} id={id}>
+      <div className="lg:container md:max-w-6xl lg:mx-auto mx-4 py-12 lg:py-28">
         <h2
-          className={`text-4xl leading-snug lg:w-1/2 pb-12 lg:pb-16 text-center text-[${textColor}]`}
+          className={`text-4xl leading-snug lg:w-1/2 pb-12 lg:pb-16 text-[${textColor}]`}
         >
           {title}
         </h2>
