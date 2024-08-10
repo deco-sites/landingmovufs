@@ -5,11 +5,12 @@ export interface Props {
   /** @format textarea */
   title?: string;
   images?: ImageWidget[];
+  id?: string;
 }
 
-export default function Sponsors({ images, title }: Props) {
+export default function Sponsors({ images, title, id }: Props) {
   return (
-    <section id="parceiros" class="pt-4 pb-32 max-w-6xl mx-auto">
+    <section id={id} class="pt-4 pb-32 max-w-6xl mx-auto">
       <div class="mx-auto">
         <h3 class="text-center mb-12 text-3xl font-bold mx-auto">
           {title}
@@ -25,8 +26,7 @@ export default function Sponsors({ images, title }: Props) {
                   decoding="async"
                   loading="lazy"
                   sizes="(max-width: 640px) 100vw, 30vw"
-                  class="mx-auto max-w-[198px]"
-                  style={{ objectFit: "contain" }}
+                  class="mx-auto w-36 h-36 object-contain" // Tailwind CSS classes for width, height, and object fit
                 />
               ))}
             </div>
