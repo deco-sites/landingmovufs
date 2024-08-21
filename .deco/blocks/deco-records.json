@@ -1,9 +1,1 @@
-{
-  "__resolveType": "site/apps/deco/records.ts",
-  "url": "libsql://landingmovufs-decocx.turso.io",
-  "authToken": {
-    "__resolveType": "website/loaders/secret.ts",
-    "name": "DATABASE_AUTH_TOKEN",
-    "encrypted": "3b887f089d50e850f9f0bf32a087405c9c2ed95de1c30b67d3e25756f66eedf6d36bcf073c7fadedd4a6a617a8f35dc2834af8ad153eac49d1d5268817342dcb63eab23e1d48150028e3e86ba793fe38a0e162fddd5d6206db5ba226d7b5a94470efcd5d1103c869c2dafed23fc2f625ea3861f8ef611b7e9da810c6972f13eed8877e6dd03089f9c044902ff953e02447ee75381406924f6740c0733a87f4f549d1bbf547b14c76b212fe382caff02b87e6ebcd2d11b3696868d8dafa29967721e321e2ffce62485a03f8537d3c85096a713e161753f0244a0c88453e27f9ec"
-  }
-}
+{"__resolveType":"site/apps/deco/records.ts"}
