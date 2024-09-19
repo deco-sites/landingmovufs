@@ -79,7 +79,7 @@
         {
           "content": {
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat mollis gravida. Morbi in ullamcorper tortor. Curabitur elementum sapien non molestie lacinia. Vivamus sit amet elementum nisi, ut ultrices lacus. Vestibulum sed interdum purus. Vivamus pellentesque diam ac sem suscipit, vitae vulputate velit tristique.",
-            "avatar": "https://media.licdn.com/dms/image/D4D03AQEBAQTLklT8mw/profile-displayphoto-shrink_800_800/0/1701540202649?e=1724889600&v=beta&t=PRwb_cRtRscwxxBDAGABdV3gOaUypQ62IlFFneBh50Y",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/309fbc31-bdfd-45da-9729-87949a5052ea/lucis.jpeg",
             "alt": "Foto Luciano",
             "name": "Luciano Júnior",
             "position": "CTO na deco.cx"
@@ -87,7 +87,7 @@
         }
       ],
       "dots": false,
-      "arrows": false,
+      "arrows": true,
       "href": "depoimentos"
     },
     {

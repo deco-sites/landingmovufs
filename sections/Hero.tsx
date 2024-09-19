@@ -43,7 +43,7 @@ export default function HeroFlats({
     <div
       style={{
         backgroundImage:
-          `url(${"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/59eed5cc-afda-420a-bd85-e752253cb4ca"})`,
+          `url(${"https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/43071f0f-4e11-4f86-acf0-178aeb2c5ffe/purple_replaced_background.jpg"})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
