@@ -4,10 +4,10 @@
     "title": "Amplia Tech",
     "jsonLDs": [],
     "noIndexing": false,
-    "description": "Potencialize sua graduação com quem já chegou lá",
+    "description": "Potencialize sua graduação em tech com quem já chegou lá",
     "titleTemplate": "O Momento é agora",
-    "descriptionTemplate": "%s | Momento",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/33bbaaeb-492e-444a-9154-f895ebdca9de",
+    "descriptionTemplate": "%s",
+    "favicon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/5c984805-9227-4c9d-85af-9b776d9051fe/logo-momento-(2).png",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/3edef223-9a44-4716-a157-d84f19a01b7c"
   },
   "global": [

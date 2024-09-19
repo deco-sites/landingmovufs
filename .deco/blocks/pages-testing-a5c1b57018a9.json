@@ -9,7 +9,7 @@
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>Conectando</p><p>Alunos, Sonhos e Futuro</p>",
       "cta": [],
-      "description": "Trazemos a experiência e a prática para potencializar alunos do ensino superior"
+      "description": "Trazemos a experiência e a prática para potencializar alunos do ensino superior em cursos de tecnologia"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
