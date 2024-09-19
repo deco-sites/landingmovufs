@@ -16,7 +16,7 @@
   },
   "mainColors": {
     "base-100": "#ffffff",
-    "primary": "#008060",
+    "primary": "#78429d",
     "secondary": "#c7c7c7",
     "tertiary": "#404040",
     "neutral": "#333333",
@@ -33,5 +33,6 @@
         "family": "Albert Sans"
       }
     ]
-  }
+  },
+  "mode": "light"
 }

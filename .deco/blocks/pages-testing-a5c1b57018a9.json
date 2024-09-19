@@ -23,7 +23,7 @@
       "title": "Sobre o Momento",
       "description": "<p>O Momento é um movimento que conecta alunos do ensino superior com o mercado de trabalho e ajuda a prepará-los para uma carreira de impacto. No futuro, o Brasil é um país protagonista em tecnologia pois é formado por comunidades fortes que colaboram com a educação dos jovens. O Momento está criando essas comunidades.</p><p>O movimento promove mentorias, palestras, cursos e eventos, com a participação de ex-alunos compromissados com a educação do país. Os profissionais e acadêmicos compartilham suas experiências e ensinam aos alunos participantes. A definição de sucesso do Momento é que novas empresas e profissionais prosperaram no Brasil através de relacionamentos e aprendizados adquiridos através da nossa comunidade.</p>",
       "placement": "left",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/178f563d-099e-46c8-8e56-cc001876589c",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/fe161815-ce9b-4776-aafb-afc70fb16eb1/DALLE-2024-09-19-09.16.29---A-group-of-capybaras-in-a-classroom-setting-studying-together-with-the-same-color-palette-and-artistic-style-as-the-initial-image.-The-colors-are-war.webp",
       "disableSpacing": {
         "bottom": true,
         "top": false
@@ -87,7 +87,7 @@
         }
       ],
       "dots": false,
-      "arrows": true,
+      "arrows": false,
       "href": "depoimentos"
     },
     {
@@ -95,22 +95,40 @@
       "title": "Mentores",
       "alumni": [
         {
-          "name": "João Capim",
-          "title": "Software Engineer @ CapyCom",
-          "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/7131267c-b86d-4820-8896-d4a041251452",
+          "name": "Fanny Vieira",
+          "title": "Senior Software Engineer @ Pokémon",
+          "photo": "https://media.licdn.com/dms/image/v2/D4D03AQHUshmJdVdwGA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1677453497258?e=1732147200&v=beta&t=N5vlujSoWGbVMIv652jrFruKtDfe_Sv8uk4r7AovFWk",
           "subtitle": "Cientista da Computação pela UFCG"
+        },
+        {
+          "name": "Daniel Bastos",
+          "title": "Software Engineer @ Meta",
+          "photo": "https://media.licdn.com/dms/image/v2/D4E03AQGtINcar86OsQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724222163052?e=1732147200&v=beta&t=SN6ak-jnMG85LxZBp7V3l1R2zm5nub7X_KfmLjGNNxc",
+          "subtitle": "Cientista da Computação pela UFPE"
         },
         {
           "name": "Luana Lagoa",
-          "title": "Research Engineer @ Bamboo",
-          "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/070e73b9-24d4-4d03-ac82-987b0d30d86b",
-          "subtitle": "Cientista da Computação pela UFPB"
+          "title": "Senior Software Engineer @ deco.cx",
+          "photo": "https://media.licdn.com/dms/image/v2/D4D03AQEDrgf7EP4ZNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707864288641?e=1732147200&v=beta&t=fKd9FE-JWiL2W2vkXbEXPwvpFmYytB6BP4-QBLygpwc",
+          "subtitle": "Cientista da Computação pela UFCG"
         },
         {
-          "name": "João Campo Grande",
-          "title": "Tech Lead @ FaceLake",
-          "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/dd93295f-0ae5-495b-8317-978a17de5414",
-          "subtitle": "Cientista da Computação pela UFCG"
+          "name": "Mateus Antonio",
+          "title": "Software Analyst @ Eldorado Research Institute",
+          "subtitle": "Engenheiro da Computação pela UFPB",
+          "photo": "https://media.licdn.com/dms/image/v2/C4D03AQGc9vM1LFgT_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1595442629568?e=1732147200&v=beta&t=MvsUDmkpIRLSSYrExF58V1TlvIetTLVN5Bg4PLBPpGQ"
+        },
+        {
+          "name": "Lara Pontes",
+          "photo": "https://media.licdn.com/dms/image/v2/D4E03AQHRIcpSUl2I_g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726365066737?e=1732147200&v=beta&t=XcKsvGsYiMbLynhven4nFshjhUB9KMAGdq7lhKaPmh4",
+          "title": "Researcher @ LOG",
+          "subtitle": "Engenheira da Computação pela UFPB"
+        },
+        {
+          "photo": "https://media.licdn.com/dms/image/v2/D4D03AQHsEQj5rfsDkw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710177512106?e=1732147200&v=beta&t=UDGooopqgWvkoUUgwTpXbYOGoLprMAjU2EG0KsncoR8",
+          "name": "Herval Freire",
+          "title": "Head of Engineering @ mobile.dev",
+          "subtitle": "Cientista da Computação pela UFPB"
         }
       ],
       "alumniPerRow": 3,
@@ -122,7 +140,7 @@
     },
     {
       "__resolveType": "site/sections/Sponsors.tsx",
-      "title": "Parceiros",
+      "title": "Universidades Contempladas",
       "images": [
         "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/a3fcec46-ed7d-4cd8-958c-1fc8ab3f6dd9",
         "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/0afc19d5-d3fb-40e9-9507-ab6a076fe5fe",
