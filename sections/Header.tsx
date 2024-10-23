@@ -1,3 +1,4 @@
+
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import Icon from "../components/ui/Icon.tsx";
@@ -27,6 +28,7 @@ export interface Nav {
   };
 }
 
+
 export default function Header({
   logo = {
     src:
@@ -50,119 +52,126 @@ export default function Header({
   },
 }: Nav) {
   return (
-    <nav class="drawer drawer-end">
+    <div class="drawer drawer-end ">
       <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
-      {/* main content */}
-      <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-4">
-        <a href="/">
-          <Image src={logo.src || ""} width={150} height={28} alt={logo.alt} />
-        </a>
-        <div class="hidden items-center justify-between lg:flex w-full">
-          <ul class="flex justify-start flex-grow">
-            {navigation.leftLinks.map((link) => (
-              <li>
-                <a
-                  href={link.url}
-                  aria-label={link.label}
-                  class="link no-underline hover:underline p-4"
-                >
-                  {link.label}
+          {/* main content */}
+            <div class="bg-primary px-0 py-0 md:py-6 md:px-16">
+              <div class="bg-[#FBF5FE] container drawer drawer-center md:rounded-full">
+          <div class="flex drawer-content items-center justify-between py-6 pl-6">
+            <a href="/">
+                  <svg width="116" height="30" viewBox="0 0 116 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_26_350)">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.195 2.9926C15.8971 2.86843 15.5619 2.86843 15.264 2.9926L3.16402 8.03558C2.71318 8.22349 2.41951 8.66403 2.41951 9.15246V19.6206L0.367175 21.6108C0.13216 21.8387 -0.000488281 22.152 -0.000488281 22.4794V23.8544C-0.000488281 24.1818 0.132156 24.4952 0.367175 24.7232L3.08967 27.3632C3.55903 27.8183 4.305 27.8183 4.77435 27.3632L7.49685 24.7232C7.73187 24.4952 7.86451 24.1818 7.86451 23.8544V22.4794C7.86451 22.152 7.73187 21.8387 7.49685 21.6108L5.44451 19.6206V12.0238L6.95842 12.6548L6.97018 18.4918C6.97131 19.0548 7.2851 19.5707 7.78459 19.8305L15.0322 23.6013C15.4694 23.8287 15.9901 23.8289 16.4274 23.6017L23.6867 19.831C24.1877 19.5707 24.5021 19.053 24.502 18.4884L24.5009 12.6546L28.295 11.0734C28.7458 10.8855 29.0395 10.4449 29.0395 9.95649V9.15246C29.0395 8.66402 28.7458 8.22349 28.295 8.03558L16.195 2.9926ZM9.99333 17.5698L9.98597 13.9165L15.264 16.1163C15.5619 16.2405 15.8971 16.2405 16.195 16.1163L21.4762 13.9153L21.4768 17.5701L15.7308 20.5548L9.99333 17.5698Z" fill="#8857C6" />
+                    </g>
+                    <path d="M109.902 22.35C108.815 22.35 107.862 22.1066 107.042 21.62C106.222 21.1333 105.582 20.4633 105.122 19.61C104.668 18.75 104.442 17.7633 104.442 16.65C104.442 15.5233 104.675 14.5333 105.142 13.68C105.608 12.82 106.252 12.15 107.072 11.67C107.892 11.19 108.835 10.95 109.902 10.95C110.988 10.95 111.942 11.1933 112.762 11.68C113.588 12.1666 114.232 12.84 114.692 13.7C115.152 14.5533 115.382 15.5366 115.382 16.65C115.382 17.77 115.148 18.76 114.682 19.62C114.222 20.4733 113.578 21.1433 112.752 21.63C111.932 22.11 110.982 22.35 109.902 22.35ZM109.902 19.81C110.775 19.81 111.425 19.5166 111.852 18.93C112.285 18.3366 112.502 17.5766 112.502 16.65C112.502 15.69 112.282 14.9233 111.842 14.35C111.408 13.7766 110.762 13.49 109.902 13.49C109.308 13.49 108.822 13.6233 108.442 13.89C108.062 14.1566 107.778 14.5266 107.592 15C107.412 15.4733 107.322 16.0233 107.322 16.65C107.322 17.6166 107.538 18.3866 107.972 18.96C108.412 19.5266 109.055 19.81 109.902 19.81Z" fill="#8857C6" />
+                    <path d="M104.821 22.05C104.074 22.19 103.341 22.25 102.621 22.23C101.908 22.2167 101.268 22.0933 100.701 21.86C100.141 21.62 99.7142 21.2367 99.4209 20.71C99.1542 20.2167 99.0142 19.7167 99.0009 19.21C98.9875 18.6967 98.9809 18.1167 98.9809 17.47V8.25H101.701V17.31C101.701 17.73 101.704 18.11 101.711 18.45C101.724 18.7833 101.794 19.05 101.921 19.25C102.161 19.63 102.544 19.8367 103.071 19.87C103.598 19.9033 104.181 19.8767 104.821 19.79V22.05ZM97.1409 13.35V11.25H104.821V13.35H97.1409Z" fill="#8857C6" />
+                    <path d="M94.5861 22.0499V16.9499C94.5861 16.7033 94.5727 16.3899 94.5461 16.0099C94.5194 15.6233 94.4361 15.2366 94.2961 14.8499C94.1561 14.4633 93.9261 14.1399 93.6061 13.8799C93.2927 13.6199 92.8461 13.4899 92.2661 13.4899C92.0327 13.4899 91.7827 13.5266 91.5161 13.5999C91.2494 13.6733 90.9994 13.8166 90.7661 14.0299C90.5327 14.2366 90.3394 14.5433 90.1861 14.9499C90.0394 15.3566 89.9661 15.8966 89.9661 16.5699L88.4061 15.8299C88.4061 14.9766 88.5794 14.1766 88.9261 13.4299C89.2727 12.6833 89.7927 12.0799 90.4861 11.6199C91.1861 11.1599 92.0661 10.9299 93.1261 10.9299C93.9727 10.9299 94.6627 11.0733 95.1961 11.3599C95.7294 11.6466 96.1427 12.0099 96.4361 12.4499C96.7361 12.8899 96.9494 13.3499 97.0761 13.8299C97.2027 14.3033 97.2794 14.7366 97.3061 15.1299C97.3327 15.5233 97.3461 15.8099 97.3461 15.9899V22.0499H94.5861ZM87.2061 22.0499V11.2499H89.6261V14.8299H89.9661V22.0499H87.2061Z" fill="#8857C6" />
+                    <path d="M81.9711 22.35C80.8644 22.35 79.8877 22.1133 79.0411 21.64C78.2011 21.16 77.5411 20.5033 77.0611 19.67C76.5877 18.83 76.3511 17.87 76.3511 16.79C76.3511 15.61 76.5844 14.5833 77.0511 13.71C77.5177 12.8366 78.1611 12.16 78.9811 11.68C79.8011 11.1933 80.7444 10.95 81.8111 10.95C82.9444 10.95 83.9077 11.2166 84.7011 11.75C85.4944 12.2833 86.0811 13.0333 86.4611 14C86.8411 14.9666 86.9744 16.1033 86.8611 17.41H84.1711V16.41C84.1711 15.31 83.9944 14.52 83.6411 14.04C83.2944 13.5533 82.7244 13.31 81.9311 13.31C81.0044 13.31 80.3211 13.5933 79.8811 14.16C79.4477 14.72 79.2311 15.55 79.2311 16.65C79.2311 17.6566 79.4477 18.4366 79.8811 18.99C80.3211 19.5366 80.9644 19.81 81.8111 19.81C82.3444 19.81 82.8011 19.6933 83.1811 19.46C83.5611 19.2266 83.8511 18.89 84.0511 18.45L86.7711 19.23C86.3644 20.2166 85.7211 20.9833 84.8411 21.53C83.9677 22.0766 83.0111 22.35 81.9711 22.35ZM78.3911 17.41V15.39H85.5511V17.41H78.3911Z" fill="#8857C6" />
+                    <path d="M73.426 22.05V15.67C73.426 14.9567 73.256 14.4033 72.916 14.01C72.5827 13.61 72.1193 13.41 71.526 13.41C71.146 13.41 70.816 13.5 70.536 13.68C70.256 13.8533 70.036 14.1 69.876 14.42C69.7227 14.7333 69.646 15.0967 69.646 15.51L68.506 14.75C68.506 14.01 68.6793 13.3567 69.026 12.79C69.3793 12.2233 69.8493 11.7833 70.436 11.47C71.0293 11.15 71.686 10.99 72.406 10.99C73.6393 10.99 74.5693 11.3567 75.196 12.09C75.8293 12.8167 76.146 13.77 76.146 14.95V22.05H73.426ZM60.406 22.05V11.25H62.806V14.83H63.146V22.05H60.406ZM66.926 22.05V15.67C66.926 14.9567 66.756 14.4033 66.416 14.01C66.0827 13.61 65.6193 13.41 65.026 13.41C64.4593 13.41 64.0027 13.6067 63.656 14C63.316 14.3867 63.146 14.89 63.146 15.51L62.006 14.71C62.006 14.0033 62.1827 13.37 62.536 12.81C62.8893 12.25 63.3627 11.8067 63.956 11.48C64.556 11.1533 65.226 10.99 65.966 10.99C66.8127 10.99 67.506 11.17 68.046 11.53C68.5927 11.89 68.996 12.37 69.256 12.97C69.516 13.57 69.646 14.23 69.646 14.95V22.05H66.926Z" fill="#8857C6" />
+                    <path d="M54.347 22.35C53.2603 22.35 52.307 22.1066 51.487 21.62C50.667 21.1333 50.027 20.4633 49.567 19.61C49.1136 18.75 48.887 17.7633 48.887 16.65C48.887 15.5233 49.1203 14.5333 49.587 13.68C50.0536 12.82 50.697 12.15 51.517 11.67C52.337 11.19 53.2803 10.95 54.347 10.95C55.4336 10.95 56.387 11.1933 57.207 11.68C58.0336 12.1666 58.677 12.84 59.137 13.7C59.597 14.5533 59.827 15.5366 59.827 16.65C59.827 17.77 59.5936 18.76 59.127 19.62C58.667 20.4733 58.0236 21.1433 57.197 21.63C56.377 22.11 55.427 22.35 54.347 22.35ZM54.347 19.81C55.2203 19.81 55.8703 19.5166 56.297 18.93C56.7303 18.3366 56.947 17.5766 56.947 16.65C56.947 15.69 56.727 14.9233 56.287 14.35C55.8536 13.7766 55.207 13.49 54.347 13.49C53.7536 13.49 53.267 13.6233 52.887 13.89C52.507 14.1566 52.2236 14.5266 52.037 15C51.857 15.4733 51.767 16.0233 51.767 16.65C51.767 17.6166 51.9836 18.3866 52.417 18.96C52.857 19.5266 53.5003 19.81 54.347 19.81Z" fill="#8857C6" />
+                    <path d="M33.8799 22.0499V7.6499H36.3199L41.0799 17.2099L45.8399 7.6499H48.2799V22.0499H45.7399V13.4499L41.5599 22.0499H40.5999L36.4199 13.4499V22.0499H33.8799Z" fill="#8857C6" />
+                    <defs>
+                      <clipPath id="clip0_26_350">
+                        <rect width="29.04" height="29.04" fill="white" transform="translate(0 0.47998)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+
                 </a>
-              </li>
-            ))}
-          </ul>
-          <ul class="flex justify-end flex-grow">
-            {navigation.rightLinks.map((link) => (
-              <li>
-                <a
-                  href={link.url}
-                  aria-label={link.label}
-                  class="link no-underline hover:underline p-4"
+                <div class="hidden items-center justify-between lg:flex w-full">
+                  <ul class="flex justify-end flex-grow">
+                    {navigation.rightLinks.map((link) => (
+                      <li>
+                        <a
+                          href={link.url}
+                          aria-label={link.label}
+                          class="link text-sm font-medium no-underline hover:underline p-3"
+                        >
+                          {link.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                  <ul class="flex gap-3 ml-8 mr-8">
+                    {navigation.buttons?.map((item) => (
+                      <a
+                        key={item?.id}
+                        id={item?.id}
+                        href={item?.href ?? "#"}
+                        target={item?.href.includes("http") ? "_blank" : "_self"}
+                        class={`font-bold btn btn-sm btn-secondary px-4 ${item.outline && "btn-outline"
+                          }`}
+                      >
+                        {item?.text}
+                      </a>
+                    ))}
+                  </ul>
+                </div>
+
+                <label
+                  htmlFor="mobile-drawer-nav"
+                  class="flex lg:hidden btn btn-ghost drawer-button"
                 >
-                  {link.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-          <ul class="flex gap-3 ml-8 mr-8">
-            {navigation.buttons?.map((item) => (
-              <a
-                key={item?.id}
-                id={item?.id}
-                href={item?.href ?? "#"}
-                target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary ${
-                  item.outline && "btn-outline"
-                }`}
-              >
-                {item?.text}
-              </a>
-            ))}
-          </ul>
-        </div>
+                  <Icon id="Bars3" size={24} strokeWidth={0.1} />
+                </label>
+              </div>
+            </div>
+          </div>
 
-        <label
-          htmlFor="mobile-drawer-nav"
-          class="flex lg:hidden btn btn-ghost drawer-button"
-        >
-          <Icon id="Bars3" size={24} strokeWidth={0.1} />
-        </label>
-      </div>
-
-      {/* sidebar */}
-      <aside class="drawer-side z-50">
-        {/* Close when clicking on overlay */}
-        <label
-          htmlFor="mobile-drawer-nav"
-          aria-label="close sidebar"
-          class="drawer-overlay"
-        />
-
-        <div class="flex flex-col gap-8 min-h-full w-80 bg-base-100 text-base-content">
-          <a class="p-4" href="/">
-            <Image
-              src={logo.src || ""}
-              width={100}
-              height={28}
-              alt={logo.alt}
+          {/* sidebar */}
+      <div class="drawer-side z-50 overflow-x-hidden">
+            {/* Close when clicking on overlay */}
+            <label
+              htmlFor="mobile-drawer-nav"
+              aria-label="close sidebar"
+              class="drawer-overlay"
             />
-          </a>
 
-          <ul class="menu">
-            {navigation?.rightLinks.map((link) => (
-              <li>
-                <a href={link.url} aria-label={link.label}>
-                  {link.label}
-                </a>
-              </li>
-            ))}
-            {navigation?.leftLinks.map((link) => (
-              <li>
-                <a href={link.url} aria-label={link.label}>
-                  {link.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-
-          <ul class="p-4 flex items-center gap-3">
-            {navigation.buttons?.map((item) => (
-              <a
-                key={item?.id}
-                id={item?.id}
-                href={item?.href ?? "#"}
-                target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary ${
-                  item.outline && "btn-outline"
-                }`}
-              >
-                {item?.text}
+            <div class="flex flex-col gap-8 min-h-full w-80 bg-base-100 text-base-content">
+              <a class="p-4" href="/">
+                <Image
+                  src={logo.src || ""}
+                  width={100}
+                  height={28}
+                  alt={logo.alt}
+                />
               </a>
-            ))}
-          </ul>
-        </div>
-      </aside>
-    </nav>
+
+              <ul class="menu">
+                {navigation?.rightLinks.map((link) => (
+                  <li>
+                    <a href={link.url} aria-label={link.label}>
+                      {link.label}
+                    </a>
+                  </li>
+                ))}
+                {navigation?.leftLinks.map((link) => (
+                  <li>
+                    <a href={link.url} aria-label={link.label}>
+                      {link.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+
+              <ul class="p-4 flex items-center gap-3">
+                {navigation.buttons?.map((item) => (
+                  <a
+                    key={item?.id}
+                    id={item?.id}
+                    href={item?.href ?? "#"}
+                    target={item?.href.includes("http") ? "_blank" : "_self"}
+                    class={`font-bold btn btn-primary font-bold ${item.outline && "btn-outline"
+                      }`}
+                  >
+                    {item?.text}
+                  </a>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+    </div>
   );
 }

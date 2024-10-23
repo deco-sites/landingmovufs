@@ -1,0 +1,46 @@
+{
+  "__resolveType": "site/sections/Mentorando.tsx",
+  "cards": [
+    {
+      "icon": "ArrowLeft",
+      "button": {
+        "href": "#",
+        "text": "DSSDASDA"
+      },
+      "title": "SADASDSAD",
+      "description": "SADSAD"
+    },
+    {
+      "icon": "ArrowLeft",
+      "button": {
+        "href": "#",
+        "text": "DSSDASDA"
+      },
+      "title": "SADASDSAD",
+      "description": "SADSAD"
+    }
+  ],
+  "title": "Quem somos",
+  "subtitle": "Junte-se ao Momento!",
+  "description": "<p><span>Pessoas motivadas a ajudar compartilhando experiências ou se envolvendo na organização.</span><br><br><span>Pessoas motivadas a ajudar compartilhando experiências ou se envolvendo na organização.</span></p>",
+  "items": [
+    {
+      "title": "SEJA MENTOR",
+      "description": "Pessoas motivadas a ajudar compartilhando experiências ou se envolvendo na organização.",
+      "button": {
+        "href": "#",
+        "text": "SEJA MENTOR",
+        "outline": false
+      }
+    },
+    {
+      "title": "Mentorias",
+      "description": "Pessoas que desejam aprender e se conectar com profissionais experientes através de palestras e mentorias.",
+      "button": {
+        "href": "#",
+        "text": "SEJA MENTOR",
+        "outline": true
+      }
+    }
+  ]
+}

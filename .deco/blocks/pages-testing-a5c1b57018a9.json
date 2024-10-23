@@ -8,7 +8,17 @@
     {
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>Conectando</p><p>Alunos, Sonhos e Futuro</p>",
-      "cta": [],
+      "cta": [
+        {
+          "href": "#",
+          "text": "PARTICIPE"
+        },
+        {
+          "href": "#",
+          "text": "SAIBA MAIS",
+          "outline": true
+        }
+      ],
       "description": "Trazemos a experiência e a prática para potencializar alunos do ensino superior em cursos de tecnologia"
     },
     {
@@ -20,75 +30,126 @@
           "href": "/saiba-mais"
         }
       ],
-      "title": "Sobre o Momento",
-      "description": "<p>O Momento é um movimento que conecta alunos do ensino superior com o mercado de trabalho e ajuda a prepará-los para uma carreira de impacto. No futuro, o Brasil é um país protagonista em tecnologia pois é formado por comunidades fortes que colaboram com a educação dos jovens. O Momento está criando essas comunidades.</p><p>O movimento promove mentorias, palestras, cursos e eventos, com a participação de ex-alunos compromissados com a educação do país. Os profissionais e acadêmicos compartilham suas experiências e ensinam aos alunos participantes. A definição de sucesso do Momento é que novas empresas e profissionais prosperaram no Brasil através de relacionamentos e aprendizados adquiridos através da nossa comunidade.</p>",
+      "title": "Quem somos",
+      "description": "<p><span style=\"font-size: 10pt\">O </span><span style=\"color: #8857c6; font-size: 10pt\">Momento</span><span style=\"font-size: 10pt\"> é um movimento que conecta estudantes universitários ao mercado de trabalho, preparando-os para carreiras de impacto.</span><br><br></p><p><span style=\"font-size: 10pt\">Ex-alunos e profissionais comprometidos compartilham suas experiências, fortalecendo comunidades que colaboram com a educação e o futuro do Brasil como protagonista em tecnologia.</span></p><p><br></p><p><span style=\"font-size: 10pt\">O sucesso do Momento é medido pela prosperidade de novas empresas e profissionais que cresceram através desses relacionamentos e aprendizados.</span></p>",
       "placement": "left",
       "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/fe161815-ce9b-4776-aafb-afc70fb16eb1/DALLE-2024-09-19-09.16.29---A-group-of-capybaras-in-a-classroom-setting-studying-together-with-the-same-color-palette-and-artistic-style-as-the-initial-image.-The-colors-are-war.webp",
       "disableSpacing": {
         "bottom": true,
         "top": false
       },
-      "id": "sobre"
+      "id": "sobre",
+      "subtitle": "Sobre o momento"
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "title": "Junte-se ao Momento!",
-      "placement": "right",
-      "cta": [
-        {
-          "style": "Normal",
-          "text": "Seja Mentorado",
-          "href": "#mentorado"
-        },
-        {
-          "style": "Outline",
-          "text": "Seja Mentor",
-          "href": "#mentor"
-        }
-      ],
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/a089eb08-f09b-448a-95b1-6d9cf080918f",
-      "description": "<p>O Momento é formado por alunos e ex-alunos de universidades públicas brasileiras. Contamos com o apoio de empresas e organizações alinhadas ao nosso propósito com a educação. Nosso principal meio de comunicação é a newsletter, que você pode se inscrever com seu e-mail.</p><p>Para esse momento inicial, estamos buscando dois perfis:</p><p>1) Pessoas que se energizam em contribuir para comunidade, seja compartilhando sua experiência ou atuando na organização do movimento;</p><p>2) Pessoas que desejam aprender e se conectar com profissionais experientes através de palestras e mentorias.</p><p></p>",
-      "id": "participe",
-      "disableSpacing": {
-        "top": false,
-        "bottom": false
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Mentorando.tsx",
+        "title": "Quem somos",
+        "subtitle": "Junte-se ao Momento!",
+        "description": "<p><span style=\"font-size: 10pt\">O Momento é formado por alunos e ex-alunos de universidades públicas brasileiras. Contamos com o apoio de empresas e organizações alinhadas ao nosso propósito com a educação. Nosso principal meio de comunicação é a newsletter, que você pode se inscrever com seu e-mail.</span></p><p><span style=\"font-size: 10pt\"><br>Para esse momento inicial, estamos buscando dois perfis:</span></p>",
+        "cards": [
+          {
+            "icon": "ArrowLeft",
+            "button": {
+              "href": "#",
+              "text": "SEJA MENTORADO"
+            },
+            "title": "Mentorado",
+            "description": "Pessoas motivadas a ajudar compartilhando experiências ou se envolvendo na organização."
+          },
+          {
+            "icon": "ArrowLeft",
+            "button": {
+              "href": "#",
+              "text": "SEJA MENTOR",
+              "outline": true
+            },
+            "title": "Mentorias",
+            "description": "Pessoas que desejam aprender e se conectar com profissionais experientes através de palestras e mentorias."
+          }
+        ],
+        "items": [
+          {
+            "title": "Mentorado",
+            "button": {
+              "text": "SEJA MENTORADO",
+              "href": "#",
+              "outline": true
+            },
+            "description": "Pessoas que desejam aprender e se conectar com profissionais experientes através de palestras e mentorias."
+          },
+          {
+            "title": "Mentorias",
+            "description": "Pessoas motivadas a ajudar compartilhando experiências ou se envolvendo na organização.",
+            "button": {
+              "href": "#",
+              "text": "SEJA MENTOR",
+              "outline": false
+            }
+          }
+        ]
       }
     },
     {
-      "__resolveType": "site/sections/Testimonials.tsx",
-      "title": "Qual o impacto da mentoria na vida das pessoas?",
-      "slides": [
-        {
-          "content": {
-            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/28ecdf81-f37f-4cbb-b036-13cdfd615a05",
-            "name": "Itamar Rocha Filho",
-            "position": "Engenheiro de Software na deco | Anteriormente na Google e na Meta",
-            "description": "Ter a oportunidade de aprender com pessoas mais experientes e ser mentorado por ex-alunos/excelentes profissionais de outras universidades do Brasil e de fora foi essencial para minha trajetória. Com esses ensinamentos pude encurtar meus caminhos e entender lições complexas sobre carreira e liderança bem mais cedo. ",
-            "alt": "Foto Itamar"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/NewSection.tsx",
+        "cards": [],
+        "items": [
+          {
+            "title": "Itamar Rocha Filho",
+            "description": "Ter a oportunidade de aprender com pessoas mais experientes e ser mentorado por ex-alunos/excelentes profissionais de outras universidades do Brasil e de fora foi essencial para minha trajetória. Com esses ensinamentos pude encurtar meus caminhos e entender lições complexas sobre carreira e liderança bem mais cedo.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/3a54773d-e71b-4620-b1d7-e317ae8bcf37/image-(2).png",
+            "role": "Engenheiro de Software na deco | Anteriormente na Google e na Meta"
+          },
+          {
+            "title": "João Pedro Vasconcelos",
+            "description": "A partir das mentorias, consegui primeiramente descobrir quais são meus objetivos de médio e longo prazo e aprendi a traçar planos para atingi-los. Além disso, aprendi novas perspectivas sobre o dia a dia de trabalho e recebi feedback valioso em áreas profissionais como comunicação e metodologias de trabalho.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/a084e90a-2398-42af-8696-5e451f1e84a7/image-(3).png",
+            "role": "Engenheiro de Software na Microsoft | Anteriormente no MIT e na Amazon"
           }
-        },
-        {
-          "content": {
-            "description": "A partir das mentorias, consegui primeiramente descobrir quais são meus objetivos de médio e longo prazo e aprendi a traçar planos para atingi-los. Além disso, aprendi novas perspectivas sobre o dia a dia de trabalho e recebi feedback valioso em áreas profissionais como comunicação e metodologias de trabalho. Conversar com pessoas em estágios de carreira mais avançados me permitiu sonhar mais alto e visualizar um futuro promissor.",
-            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/5526fdbc-e7a8-489b-93b7-1e3c14c9d3da",
-            "alt": "Foto de João Pedro",
-            "name": "João Pedro Vasconcelos",
-            "position": "Engenheiro de Software na Microsoft | Anteriormente no MIT e na Amazon"
+        ],
+        "title": "Quem somos",
+        "subtitle": "Qual o impacto da mentoria na vida das pessoas?",
+        "description": "<p><span>No futuro, o Brasil é um país protagonista em tecnologia pois é formado por comunidades fortes que colaboram com a educação dos jovens. O Momento está criando essas comunidades.</span></p>"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/BlogPosts.tsx",
+        "subtitle": "O QUE FAZEMOS",
+        "title": "Experiência e aprendizado em um só lugar",
+        "description": "Mentorias, eventos exclusivos e uma comunidade que impulsiona seu crescimento"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/subscribe.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/NextEvents.tsx",
+        "title": "Próximos eventos",
+        "subtitle": "QUEM SOMOS",
+        "description": "Descubra os ex-alunos que estarão presentes como mentores nos próximos eventos.",
+        "items": [
+          {
+            "title": "Live coding do Momento",
+            "description": "Utilizando APIs de IA para criação de software em empresas paraibanas",
+            "date": "16/10",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/290b3787-537a-4889-8d6f-fd1293f5a4e0/Rectangle-8974.png",
+            "cta": {
+              "href": "#",
+              "text": "PARTICIPE"
+            }
           }
-        },
-        {
-          "content": {
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat mollis gravida. Morbi in ullamcorper tortor. Curabitur elementum sapien non molestie lacinia. Vivamus sit amet elementum nisi, ut ultrices lacus. Vestibulum sed interdum purus. Vivamus pellentesque diam ac sem suscipit, vitae vulputate velit tristique.",
-            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/309fbc31-bdfd-45da-9729-87949a5052ea/lucis.jpeg",
-            "alt": "Foto Luciano",
-            "name": "Luciano Júnior",
-            "position": "CTO na deco.cx"
-          }
-        }
-      ],
-      "dots": false,
-      "arrows": true,
-      "href": "depoimentos"
+        ]
+      }
     },
     {
       "__resolveType": "site/sections/AlumniGrid.tsx",
@@ -98,7 +159,8 @@
           "name": "Fanny Vieira",
           "title": "Senior Software Engineer @ Pokémon",
           "photo": "https://media.licdn.com/dms/image/v2/D4D03AQHUshmJdVdwGA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1677453497258?e=1732147200&v=beta&t=N5vlujSoWGbVMIv652jrFruKtDfe_Sv8uk4r7AovFWk",
-          "subtitle": "Cientista da Computação pela UFCG"
+          "subtitle": "Cientista da Computação pela UFCG",
+          "backgroundColor": "#FFBA00"
         },
         {
           "name": "Daniel Bastos",
@@ -133,24 +195,12 @@
       ],
       "alumniPerRow": 3,
       "description": "Conheça alguns dos ex-alunos que participam do movimento como mentores",
-      "id": "mentores"
-    },
-    {
-      "__resolveType": "Preview /sections/Maintainers.tsx"
-    },
-    {
-      "__resolveType": "site/sections/Sponsors.tsx",
-      "title": "Onde o momento já chegou",
-      "images": [
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/a3fcec46-ed7d-4cd8-958c-1fc8ab3f6dd9",
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/0afc19d5-d3fb-40e9-9507-ab6a076fe5fe",
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/e644fab3-5977-40de-bfb7-4a296fba0a94"
-      ],
-      "id": "parceiros"
+      "id": "mentores",
+      "subtitle": "QUEM SOMOS"
     },
     {
       "__resolveType": "site/sections/StylishFaq.tsx",
-      "title": "FAQs",
+      "title": "Tem dúvidas?",
       "description": " Frequently Asked Questions  |  Perguntas frequentes",
       "questions": [
         {
@@ -195,10 +245,93 @@
         "href": "/saiba-mais",
         "text": "Saiba mais"
       },
-      "titlePosition": "column"
+      "titlePosition": "column",
+      "subtitle": "FAQs"
     },
     {
-      "__resolveType": "Footer"
+      "__resolveType": "site/sections/Maintainers.tsx",
+      "images": [
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/14c04092-92ff-4264-9f96-e13f78b3626a"
+      ],
+      "title": "Mantenedores",
+      "sections": [
+        {
+          "images": [
+            "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/94a91c98-53f7-4fbc-81ca-1f02b08b3f2a/14c04092-92ff-4264-9f96-e13f78b3626a.png"
+          ],
+          "title": "Mantenedores"
+        },
+        {
+          "images": [
+            "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/f20f63d0-e97b-4a29-b2ec-815cb90064f6/a3fcec46-ed7d-4cd8-958c-1fc8ab3f6dd9.png",
+            "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/22ca5dcd-3ad7-460b-bbcf-7cbb11a7f961/0afc19d5-d3fb-40e9-9507-ab6a076fe5fe.png",
+            "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/32efcb02-fb9d-41a5-99e0-fb9267b2b538/e644fab3-5977-40de-bfb7-4a296fba0a94.png"
+          ],
+          "title": "Onde o momento já chegou"
+        },
+        {
+          "images": [
+            "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/f20f63d0-e97b-4a29-b2ec-815cb90064f6/a3fcec46-ed7d-4cd8-958c-1fc8ab3f6dd9.png",
+            "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/22ca5dcd-3ad7-460b-bbcf-7cbb11a7f961/0afc19d5-d3fb-40e9-9507-ab6a076fe5fe.png",
+            "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/32efcb02-fb9d-41a5-99e0-fb9267b2b538/e644fab3-5977-40de-bfb7-4a296fba0a94.png"
+          ],
+          "title": "Patrocinadores"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "links": [
+        {
+          "label": "Sobre",
+          "href": "#"
+        },
+        {
+          "label": "Depoimentos",
+          "href": "#"
+        },
+        {
+          "label": "Mantenedores",
+          "href": "#"
+        },
+        {
+          "label": "FAQ",
+          "href": "#"
+        },
+        {
+          "href": "#",
+          "label": "Parceiros"
+        }
+      ],
+      "bottomLinks": [
+        {
+          "label": "Política de Privacidade",
+          "href": "#"
+        }
+      ],
+      "social": [
+        {
+          "network": "Facebook",
+          "href": "#"
+        },
+        {
+          "network": "Instagram",
+          "href": "#"
+        },
+        {
+          "network": "X - Twitter",
+          "href": "#"
+        },
+        {
+          "network": "Email",
+          "email": "contato@momento.sh",
+          "href": "/"
+        }
+      ],
+      "subscribe": {},
+      "logo": {
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/4d40c83e-df52-4012-b37c-719510a917eb/Frame-2609661-(1).png"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",

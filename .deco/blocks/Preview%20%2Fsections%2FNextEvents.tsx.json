@@ -1,0 +1,28 @@
+{
+  "__resolveType": "site/sections/NextEvents.tsx",
+  "items": [
+    {
+      "title": "Live coding do Momento",
+      "description": "Utilizando APIs de IA para criação de software em empresas paraibanas",
+      "date": "16/10",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/fc0712b3-7487-48f8-a1e6-ea28b776b606/Rectangle-8974.png",
+      "cta": {
+        "href": "#",
+        "text": "Participe"
+      }
+    },
+    {
+      "title": "Live coding do Momento",
+      "description": "Utilizando APIs de IA para criação de software em empresas paraibanas",
+      "date": "16/10",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/fc0712b3-7487-48f8-a1e6-ea28b776b606/Rectangle-8974.png",
+      "cta": {
+        "href": "#",
+        "text": "Participe"
+      }
+    }
+  ],
+  "subtitle": "QUEM SOMOS",
+  "title": "Próximos eventos",
+  "description": "Descubra os ex-alunos que estarão presentes como mentores nos próximos eventos."
+}

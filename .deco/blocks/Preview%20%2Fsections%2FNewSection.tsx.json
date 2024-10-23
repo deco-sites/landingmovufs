@@ -1,0 +1,20 @@
+{
+  "__resolveType": "site/sections/NewSection.tsx",
+  "items": [
+    {
+      "title": "Itamar Rocha Filho",
+      "description": "Ter a oportunidade de aprender com pessoas mais experientes e ser mentorado por ex-alunos/excelentes profissionais de outras universidades do Brasil e de fora foi essencial para minha trajetória. Com esses ensinamentos pude encurtar meus caminhos e entender lições complexas sobre carreira e liderança bem mais cedo.",
+      "role": "Engenheiro de Software na deco | Anteriormente na Google e na Meta",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/3a54773d-e71b-4620-b1d7-e317ae8bcf37/image-(2).png"
+    },
+    {
+      "title": "João Pedro Vasconcelos",
+      "role": "Engenheiro de Software na Microsoft | Anteriormente no MIT e na Amazon",
+      "description": "A partir das mentorias, consegui primeiramente descobrir quais são meus objetivos de médio e longo prazo e aprendi a traçar planos para atingi-los. Além disso, aprendi novas perspectivas sobre o dia a dia de trabalho e recebi feedback valioso em áreas profissionais como comunicação e metodologias de trabalho.",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/a084e90a-2398-42af-8696-5e451f1e84a7/image-(3).png"
+    }
+  ],
+  "subtitle": "Qual o impacto da mentoria na vida das pessoas?",
+  "title": "QUEM SOMOS",
+  "description": "<p><span>No futuro, o Brasil é um país protagonista em tecnologia pois é formado por comunidades fortes que colaboram com a educação dos jovens. O Momento está criando essas comunidades.</span></p>"
+}

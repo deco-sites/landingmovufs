@@ -4,23 +4,25 @@
     {
       "name": "André Costa",
       "title": "Software Engineer @ Meta",
-      "photo": "https://media.licdn.com/dms/image/C5603AQFciJkchSOlcQ/profile-displayphoto-shrink_400_400/0/1613817429587?e=1724889600&v=beta&t=QTBzSYmP-8NSu3gY4cMcH6n2_6snhs_8nFUHcvRDANM",
-      "subtitle": "Cientista da Computação pela UFPB"
+      "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/a084e90a-2398-42af-8696-5e451f1e84a7/image-(3).png",
+      "subtitle": "Cientista da Computação pela UFPB",
+      "backgroundColor": "#FFBA00"
     },
     {
       "name": "Marianne Monteiro",
       "title": "Research Engineer @ DeepMind",
-      "photo": "https://media.licdn.com/dms/image/C4E03AQGf_bKZjS5ANA/profile-displayphoto-shrink_400_400/0/1534941542085?e=1724889600&v=beta&t=WYT1PMmjMnM6yCh6ONVFz3XWFRcOmbRSBbesqqbYfW4",
+      "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/3a54773d-e71b-4620-b1d7-e317ae8bcf37/image-(2).png",
       "subtitle": "Cientista da Computação pela UFCG"
     },
     {
       "name": "Luciano Júnior",
       "title": "CTO @ deco.cx",
-      "photo": "https://media.licdn.com/dms/image/D4D03AQEBAQTLklT8mw/profile-displayphoto-shrink_100_100/0/1701540202649?e=1724889600&v=beta&t=5KGDTtsYKb4mi_3Zc14dq3g5ci9NC3PN8kWo9ASVweE",
+      "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/309fbc31-bdfd-45da-9729-87949a5052ea/lucis.jpeg",
       "subtitle": "Cientista da Computação pela UFCG"
     }
   ],
   "alumniPerRow": 3,
-  "title": "Mentores",
-  "description": "Conheça alguns dos ex-alunos que participam do movimento como mentores"
+  "title": "Nossos mentores",
+  "description": "Conheça alguns dos ex-alunos que participam do movimento como mentores",
+  "subtitle": "QUEM SOMOS"
 }

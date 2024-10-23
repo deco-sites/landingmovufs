@@ -1,7 +1,54 @@
 {
   "__resolveType": "site/sections/Footer.tsx",
-  "links": [],
-  "bottomLinks": [],
-  "social": [],
-  "subscribe": {}
+  "links": [
+    {
+      "label": "Sobre",
+      "href": "#"
+    },
+    {
+      "label": "Depoimentos",
+      "href": "#"
+    },
+    {
+      "label": "Mantenedores",
+      "href": "#"
+    },
+    {
+      "label": "FAQ",
+      "href": "#"
+    },
+    {
+      "href": "#",
+      "label": "Parceiros"
+    }
+  ],
+  "bottomLinks": [
+    {
+      "label": "Política de Privacidade",
+      "href": "#"
+    }
+  ],
+  "social": [
+    {
+      "network": "Facebook",
+      "href": "#"
+    },
+    {
+      "network": "Instagram",
+      "href": "#"
+    },
+    {
+      "network": "X - Twitter",
+      "href": "#"
+    },
+    {
+      "network": "Email",
+      "email": "contato@momento.sh",
+      "href": "/"
+    }
+  ],
+  "subscribe": {},
+  "logo": {
+    "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/4d40c83e-df52-4012-b37c-719510a917eb/Frame-2609661-(1).png"
+  }
 }

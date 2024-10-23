@@ -5,10 +5,7 @@ interface Props {
    * @description The title of the alumni section.
    */
   title?: string;
-  /**
-   * @description The description or subtitle of the alumni section.
-   * @format textarea
-   */
+  subtitle?:string;
   description?: string;
   /**
    * @description The list of alumni to display.
@@ -22,6 +19,15 @@ interface Props {
      * @widget ImageWidget
      */
     photo?: ImageWidget;
+    /**
+ * @description The background color of the alumni section.
+ * @format color-input
+ */
+    backgroundColor?: string;
+  /**
+     * @description The text color of the alumni section.
+     * @format color-input
+     */
   }[];
   /**
    * @description The number of alumni to display per row.
@@ -31,11 +37,7 @@ interface Props {
    * @description The background color of the alumni section.
    * @format color-input
    */
-  backgroundColor?: string;
-  /**
-   * @description The text color of the alumni section.
-   * @format color-input
-   */
+
   textColor?: string;
   id?: string;
 }
@@ -46,41 +48,46 @@ export default function AlumniSection({
     "Meet some of our successful graduates who have gone on to achieve great things.",
   alumni = [],
   alumniPerRow = 5,
-  backgroundColor = "#f3f4f6",
+  subtitle = "ASDSADDSADSADSA",
   textColor = "#1f2937",
   id,
 }: Props) {
   return (
-    <section className={`py-12 bg-[${backgroundColor}]`} id={id}>
+    <section className={`py-12 `} id={id}>
       <div className="lg:container md:max-w-6xl lg:mx-auto mx-4 py-12 lg:py-28">
-        <h2
-          className={`text-4xl leading-snug lg:w-1/2 pb-12 lg:pb-16 text-[${textColor}]`}
-        >
-          {title}
-        </h2>
-        <p className={`text-xl text-center mb-8 text-[${textColor}]`}>
-          {description}
-        </p>
+        <div class="flex flex-col items-center">
+          <p class="text-primary font-bold text-lg leading-snug">
+            {subtitle}
+          </p>
+          <p class="text-4xl font-bold leading-snug">
+            {title}
+          </p>
+          <p class="text-md pt-8">
+            {description}
+          </p>
+        </div>
         <div
-          className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-${alumniPerRow} gap-8`}
+          className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-${alumniPerRow} gap-8 pt-8`}
         >
           {alumni.map((alumnus, index) => (
             <div
               key={index}
-              className={`bg-white rounded-2xl shadow-md p-8 text-[${textColor}]`}
+              className={`flex flex-col bg-white rounded-3xl shadow-md items-center text-[${textColor}] bg-[${alumnus.backgroundColor}]`}
             >
               {alumnus.photo && (
                 <img
                   src={alumnus.photo}
                   alt={alumnus.name}
-                  className="object-cover w-32 h-32 rounded-full mx-auto mb-4"
+                  className="flex object-cover content-center rounded-3xl w-80 h-80 pt-3"
                 />
               )}
-              <h3 className="text-xl font-semibold mb-2 text-center">
-                {alumnus.name}
-              </h3>
-              <p className="text-center">{alumnus.title}</p>
-              <p className="text-center">{alumnus.subtitle}</p>
+              <div class="flex flex-col items-start m-4">
+                <p className="text-xl font-semibold text-left pb-4">
+                  {alumnus.name}
+                </p>
+                <p className="text-left">{alumnus.title}</p>
+                <p className="text-left">{alumnus.subtitle}</p>
+              </div>
             </div>
           ))}
         </div>

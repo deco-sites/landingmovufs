@@ -3,5 +3,21 @@
   "images": [
     "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/14c04092-92ff-4264-9f96-e13f78b3626a"
   ],
-  "title": "Mantenedores"
+  "title": "Mantenedores",
+  "sections": [
+    {
+      "images": [
+        "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/94a91c98-53f7-4fbc-81ca-1f02b08b3f2a/14c04092-92ff-4264-9f96-e13f78b3626a.png"
+      ],
+      "title": "Mantenedores"
+    },
+    {
+      "images": [
+        "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/f20f63d0-e97b-4a29-b2ec-815cb90064f6/a3fcec46-ed7d-4cd8-958c-1fc8ab3f6dd9.png",
+        "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/22ca5dcd-3ad7-460b-bbcf-7cbb11a7f961/0afc19d5-d3fb-40e9-9507-ab6a076fe5fe.png",
+        "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/32efcb02-fb9d-41a5-99e0-fb9267b2b538/e644fab3-5977-40de-bfb7-4a296fba0a94.png"
+      ],
+      "title": "Onde o momento já chegou"
+    }
+  ]
 }

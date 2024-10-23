@@ -1,0 +1,13 @@
+{
+  "__resolveType": "site/sections/StylishFaq.tsx",
+  "titlePosition": "aside",
+  "questions": [
+    {
+      "title": "O que é o nosso projeto?",
+      "answer": "<p>Nosso projeto surge com o intuito de trazer o mercado de trabalho mais para perto da faculdade, por meio de mentoria, palestras, eventos e projetos. <br><br>Vamos construir uma base sólida para o setor de tecnologia do nosso país através da conexão entre estudantes e profissionais e pesquisadores experientes.</p>"
+    }
+  ],
+  "title": "Tem dúvidas?",
+  "subtitle": "FAQ",
+  "description": "Conheça alguns dos ex-alunos que participam do movimento como mentores"
+}

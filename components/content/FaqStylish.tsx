@@ -16,30 +16,35 @@ export interface CTA {
 
 export interface Props {
   title?: string;
+  subtitle?: string;
   titlePosition: "aside" | "column";
   description?: string;
   cta?: CTA;
   questions: Question[];
 }
 
-function Faq({ questions, title, titlePosition, description, cta }: Props) {
+function Faq({ questions, subtitle, title, titlePosition, description, cta }: Props) {
   return (
     <div
       id="faq"
-      class="container mx-auto px-8 flex flex-col items-center gap-4 py-8"
+      class="bg-[#8857C6] flex flex-col items-center gap-4 py-8 rounded-3xl"
     >
-      <p class="text-4xl leading-snug">
-        {title}
-      </p>
-      <p class="text-lg">
-        {description}
-      </p>
+      <div class="flex flex-col items-center">
+        <p class="text-secondary font-bold text-lg leading-snug">
+          {subtitle}
+        </p>
+        <p class="text-[#F6F6F7] text-4xl font-bold leading-snug">
+          {title}
+        </p>
+        <p class="text-[#F6F6F7] text-md py-4">
+          {description}
+        </p>
+      </div>
       <div
-        class={`flex ${
-          titlePosition === "aside"
+        class={`flex ${titlePosition === "aside"
             ? "flex-row justify-between items-start max-lg:flex-wrap"
             : "flex-col items-center justify-center"
-        } w-full max-w-3xl`}
+          } w-full max-w-3xl pb-8`}
       >
         <div class="flex flex-col w-full gap-3">
           {questions.map(({ title, answer }, index) => (
@@ -49,7 +54,7 @@ function Faq({ questions, title, titlePosition, description, cta }: Props) {
             >
               <Collapse title={title}>
                 <div
-                  class="mt-2 text-gray-800 leading-relaxed"
+                  class="mt-4 text-gray-800 leading-relaxed"
                   dangerouslySetInnerHTML={{ __html: answer }}
                 />
               </Collapse>
@@ -57,15 +62,6 @@ function Faq({ questions, title, titlePosition, description, cta }: Props) {
           ))}
         </div>
       </div>
-      <a
-        key={cta?.id}
-        id={cta?.id}
-        href={cta?.href}
-        target={cta?.href.includes("http") ? "_blank" : "_self"}
-        class={`font-normal btn btn-primary ${cta?.outline && "btn-outline"}`}
-      >
-        {cta?.text}
-      </a>
     </div>
   );
 }

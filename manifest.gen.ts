@@ -18,10 +18,14 @@ import * as $$$$$$7 from "./sections/ImageWithParagraph.tsx";
 import * as $$$$$$8 from "./sections/Logos.tsx";
 import * as $$$$$$9 from "./sections/Maintainers.tsx";
 import * as $$$$$$10 from "./sections/MarkdownParagraph.tsx";
-import * as $$$$$$11 from "./sections/Sponsors.tsx";
-import * as $$$$$$12 from "./sections/StylishFaq.tsx";
-import * as $$$$$$13 from "./sections/Testimonials.tsx";
-import * as $$$$$$14 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$11 from "./sections/Mentorando.tsx";
+import * as $$$$$$12 from "./sections/NewSection.tsx";
+import * as $$$$$$13 from "./sections/NextEvents.tsx";
+import * as $$$$$$14 from "./sections/Sponsors.tsx";
+import * as $$$$$$15 from "./sections/StylishFaq.tsx";
+import * as $$$$$$18 from "./sections/subscribe.tsx";
+import * as $$$$$$16 from "./sections/Testimonials.tsx";
+import * as $$$$$$17 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
@@ -36,10 +40,14 @@ const manifest = {
     "site/sections/Logos.tsx": $$$$$$8,
     "site/sections/Maintainers.tsx": $$$$$$9,
     "site/sections/MarkdownParagraph.tsx": $$$$$$10,
-    "site/sections/Sponsors.tsx": $$$$$$11,
-    "site/sections/StylishFaq.tsx": $$$$$$12,
-    "site/sections/Testimonials.tsx": $$$$$$13,
-    "site/sections/Theme/Theme.tsx": $$$$$$14,
+    "site/sections/Mentorando.tsx": $$$$$$11,
+    "site/sections/NewSection.tsx": $$$$$$12,
+    "site/sections/NextEvents.tsx": $$$$$$13,
+    "site/sections/Sponsors.tsx": $$$$$$14,
+    "site/sections/StylishFaq.tsx": $$$$$$15,
+    "site/sections/subscribe.tsx": $$$$$$18,
+    "site/sections/Testimonials.tsx": $$$$$$16,
+    "site/sections/Theme/Theme.tsx": $$$$$$17,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,

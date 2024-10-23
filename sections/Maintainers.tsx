@@ -1,39 +1,50 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-export interface Props {
-  /** @format textarea */
+export interface Section {
   title?: string;
   images?: ImageWidget[];
 }
 
-export default function Sponsors({ images, title }: Props) {
+export interface Props {
+  sections?: Section[];
+}
+
+export default function Sponsors({ sections = [
+  {
+    title: "Mantenedores",
+    images: []
+  }
+] }: Props) {
   return (
-    <section id="mantenedores" class="pt-4 pb-32 max-w-6xl mx-auto">
-      <div class="mx-auto">
-        <h3 class="text-center mb-12 text-3xl font-bold mx-auto">
-          {title}
-        </h3>
-        <div class="flex items-center align-center">
-          <div class="mx-auto w-1/2 flex">
-            <div class="w-full ">
-              <div class="py-6 lg:px-4 lg:pb-4 lg:pr-0 bg-white rounded flex flex-row items-center justify-center flex-wrap">
-                {images && images.map((image) => (
-                  <Image
-                    src={image}
-                    alt={image}
-                    decoding="async"
-                    loading="lazy"
-                    sizes="(max-width: 640px) 100vw, 30vw"
-                    class="mx-auto max-w-[198px]"
-                    style={{ objectFit: "contain" }}
-                  />
-                ))}
+    <div class="flex flex-col sm:flex-row py-32 justify-center items-center">
+      {sections.map((section, index) => (
+        <div class="flex flex-col sm:flex-row gap-x-8 pl-8">
+          <div class={`border-4 border-primary ${index !== 0 ? 'hidden sm:flex' : 'hidden'}`}></div>
+          <div class="mx-auto">
+            <p class="text-center text-3xl font-bold mx-auto">
+              {section.title}
+            </p>
+            <div class="flex flex-col sm:flex-row items-center align-center py-9">
+              <div class="flex mx-auto justify-center items-center">
+                <div class="flex flex-row items-center justify-center flex-wrap gap-16">
+                  {section.images && section.images.map((image) => (
+                    <Image
+                      src={image}
+                      alt={image}
+                      decoding="async"
+                      loading="lazy"
+                      sizes="(max-width: 640px) 100vw, 30vw"
+                      class="mx-auto max-w-[198px]"
+                      style={{ objectFit: "contain" }}
+                    />
+                  ))}
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  );
-}
+      ))}
+    </div>
+  )
+};

@@ -1,0 +1,48 @@
+{
+  "__resolveType": "site/sections/Mentorando.tsx",
+  "cards": [
+    {
+      "icon": {
+        "0": "A",
+        "1": "r",
+        "2": "r",
+        "3": "o",
+        "4": "w",
+        "5": "L",
+        "6": "e",
+        "7": "f",
+        "8": "t"
+      },
+      "button": {
+        "href": "#",
+        "text": "SEJA MENTORADO"
+      },
+      "title": "Mentorado",
+      "description": "Pessoas motivadas a ajudar compartilhando experiências ou se envolvendo na organização."
+    },
+    {
+      "icon": {
+        "0": "A",
+        "1": "r",
+        "2": "r",
+        "3": "o",
+        "4": "w",
+        "5": "L",
+        "6": "e",
+        "7": "f",
+        "8": "t"
+      },
+      "button": {
+        "href": "#",
+        "text": "SEJA MENTOR",
+        "outline": true
+      },
+      "title": "Mentorias",
+      "description": "Pessoas que desejam aprender e se conectar com profissionais experientes através de palestras e mentorias."
+    }
+  ],
+  "title": "QUEM SOMOS",
+  "subtitle": "Junte-se ao Momento!",
+  "description": "<p><span style=\"font-size: 11pt\">O Momento é formado por alunos e ex-alunos de universidades públicas brasileiras. Contamos com o apoio de empresas e organizações alinhadas ao nosso propósito com a educação. Nosso principal meio de comunicação é a newsletter, que você pode se inscrever com seu e-mail.</span></p><p><span style=\"font-size: 11pt\"><br></span><span style=\"font-size: 11pt\">Para esse momento inicial, estamos buscando dois perfis:</span></p>",
+  "items": []
+}

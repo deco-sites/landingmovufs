@@ -1,6 +1,11 @@
 {
   "__resolveType": "site/sections/FaqDeco.tsx",
-  "questions": [],
+  "questions": [
+    {
+      "question": "AAAAAAAAAAA",
+      "answer": "AAAAAAAAAAAAAAAAAAAAAA"
+    }
+  ],
   "title": "<p>FAQs</p>",
   "description": "Frequently Asked Questions - Perguntas frequentes"
 }
