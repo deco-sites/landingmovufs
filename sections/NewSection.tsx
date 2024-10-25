@@ -43,11 +43,11 @@ export default function ImageWithParagraph({
   const count = useSignal(0);
 
   const prevSlide = () => {
-    count.value = count.value === 0 ? items.length - 1 : count.value - 1
+    count.value = count.value <= 0 ? items.length - 1 : count.value - 1
   };
 
   const nextSlide = () => {
-    count.value = count.value === 0 ? items.length - 1 : count.value + 1
+    count.value = count.value >= items.length - 1 ? 0 : count.value + 1
   };
 
 
@@ -76,10 +76,9 @@ export default function ImageWithParagraph({
       </div>
 
       <div id="carousel" class="relative overflow-hidden">
-        <div class="flex flex-col md:flex-row transition-transform duration-500 text-left items-center md:items-start pb-32 pr-4 sm:pr-10 md:pr-20 pl-4 sm:pl-10 md:pl-20 gap-4"
-          style={{ transform: `translateX(-${count.value * 100}%)` }}
+        <div class="flex flex-row transition-transform duration-500 text-left items-center md:items-start pb-32 pr-4 sm:pr-10 md:pr-20 pl-4 sm:pl-10 md:pl-20 gap-4"
+          style={{ transform: `translateX(-${count.value * 47.5}%)` }}
         >
-          {count}
           {items.map((item, index) => (
             <div class={`flex flex-col md:flex-row gap-4 rounded-3xl border ${index % 2 === 0 ? 'border-[#FFBA00]' : 'border-[#8857C6]'} max-h-max`}>
               <Image
@@ -120,15 +119,19 @@ export default function ImageWithParagraph({
         </div>
         <button
           onClick={prevSlide}
-          class="absolute left-0 top-1/2 -translate-y-1/2 bg-gray-800 text-white px-4 py-2"
+          class="absolute left-0 sm:left-7 top-1/2 -translate-y-1/2 bg-[#F2EDFA] border border-[#D4C3EF] rounded-full text-white px-3 py-2"
         >
-          Prev
+          <svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.19995 2.00003L1.99995 9.20002L9.19995 16.4" stroke="#613C8D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
         </button>
         <button
-          onClick={() => count.value++}
-          class="absolute right-0 top-1/2 -translate-y-1/2 bg-gray-800 text-white px-4 py-2"
+          onClick={nextSlide}
+          class="absolute right-0 sm:right-7 top-1/2 -translate-y-1/2 bg-[#F2EDFA] border border-[#D4C3EF] rounded-full text-white px-3 py-2"
         >
-          Next
+          <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.60029 16.16L8.80029 8.96001L1.60029 1.76001" stroke="#613C8D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
         </button>
       </div>
     </div>

@@ -56,8 +56,8 @@ export default function Header({
       <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
           {/* main content */}
-            <div class="bg-primary px-0 py-0 md:py-6 md:px-16">
-              <div class="bg-[#FBF5FE] container drawer drawer-center md:rounded-full">
+        <div class="bg-primary px-0 py-0 md:py-6 md:px-16">
+          <div class="bg-[#FBF5FE] container drawer drawer-center md:rounded-full">
           <div class="flex drawer-content items-center justify-between py-6 pl-6">
             <a href="/">
                   <svg width="116" height="30" viewBox="0 0 116 30" fill="none" xmlns="http://www.w3.org/2000/svg">

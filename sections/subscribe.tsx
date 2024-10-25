@@ -13,19 +13,25 @@ export default function NewsletterSignup() {
             class="text-3xl font-bold text-center"
             dangerouslySetInnerHTML={{ __html: 'Entre seu e-mail para ficar sabendo <br> mais das novidades que estão por vir' }}
           />
-          <form class="flex flex-col items-center sm:flex-row gap-4 bg-[#FAF7FD] border border-black rounded-3xl p-1"
+          <form class="flex max-w-[80%] shrink flex-row items-center sm:gap-4 bg-[#FAF7FD] border border-black rounded-3xl p-1"
           onSubmit={() => {}}>
             <input
               type="email"
               placeholder="Escreva seu email"
-              class="flex-grow rounded-3xl bg-[#FAF7FD] px-4 py-2 border-0"
+              class="flex rounded-3xl bg-[#FAF7FD] px-4 py-2 border-0 max-w-[73%]"
               required
             />
             <button
               type="submit"
-              class="px-6 py-2 btn btn-md btn-primary text-white rounded-3xl border-0"
+              class="flex px-6 py-2 btn btn-md btn-primary text-white rounded-3xl border-0"
             >
-              participe
+              <p class="hidden md:flex">participe</p>
+              <div class="flex md:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="send">
+                <path fill="none" d="M0 0h24v24H0V0z"></path>
+                <path fill="white" d="M3.4 20.4l17.45-7.48c.81-.35.81-1.49 0-1.84L3.4 3.6c-.66-.29-1.39.2-1.39.91L2 9.12c0 .5.37.93.87.99L17 12 2.87 13.88c-.5.07-.87.5-.87 1l.01 4.61c0 .71.73 1.2 1.39.91z"></path>
+              </svg>
+              </div>
             </button>
           </form>
         </div>
