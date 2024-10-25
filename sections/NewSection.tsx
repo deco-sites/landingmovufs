@@ -77,7 +77,7 @@ export default function ImageWithParagraph({
 
       <div id="carousel" class="relative overflow-hidden">
         <div class="flex flex-row transition-transform duration-500 text-left items-center md:items-start pb-32 pr-4 sm:pr-10 md:pr-20 pl-4 sm:pl-10 md:pl-20 gap-4"
-          style={{ transform: `translateX(-${count.value * 47.5}%)` }}
+          style={{ transform: `translateX(-${count.value * 40}%)` }}
         >
           {items.map((item, index) => (
             <div class={`flex flex-col md:flex-row gap-4 rounded-3xl border ${index % 2 === 0 ? 'border-[#FFBA00]' : 'border-[#8857C6]'} max-h-max`}>

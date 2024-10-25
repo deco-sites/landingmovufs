@@ -74,7 +74,7 @@ export default function Footer({
         backgroundRepeat: "no-repeat",
         backgroundSize: "contain"
       }}
-      class="flex flex-col pl-6 sm:pl-0 pt-16 pb-32 sm:pb-64 bg-[#341952] sm:px-24">
+      class="flex flex-col pl-6 pt-16 pb-32 sm:pb-64 bg-[#341952] sm:px-24">
       <div class="flex flex-col sm:flex-row justify-center sm:justify-between">
         <div class="flex flex-col gap-4 ">
           <a
