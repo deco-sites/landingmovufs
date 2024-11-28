@@ -4,6 +4,7 @@ import Image from "apps/website/components/Image.tsx";
 export interface Section {
   title?: string;
   images?: ImageWidget[];
+  id?: string;
 }
 
 export interface Props {
@@ -13,7 +14,8 @@ export interface Props {
 export default function Sponsors({ sections = [
   {
     title: "Mantenedores",
-    images: []
+    images: [],
+    id: "mantenedores",
   }
 ] }: Props) {
   return (
@@ -22,7 +24,7 @@ export default function Sponsors({ sections = [
         <div class="flex flex-col sm:flex-row gap-x-8 pl-8">
           <div class={`border-4 border-primary ${index !== 0 ? 'hidden sm:flex' : 'hidden'}`}></div>
           <div class="mx-auto">
-            <p class="text-center text-3xl font-bold mx-auto">
+            <p class="text-center text-3xl font-bold mx-auto" id={section.id}>
               {section.title}
             </p>
             <div class="flex flex-col sm:flex-row items-center align-center py-9">

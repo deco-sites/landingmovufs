@@ -10,11 +10,11 @@
       "title": "<p>Conectando</p><p>Alunos, Sonhos e Futuro</p>",
       "cta": [
         {
-          "href": "#",
+          "href": "#participe",
           "text": "PARTICIPE"
         },
         {
-          "href": "#",
+          "href": "#sobre",
           "text": "SAIBA MAIS",
           "outline": true
         }
@@ -164,39 +164,39 @@
         {
           "name": "Fanny Vieira",
           "title": "Senior Software Engineer @ Pokémon",
-          "photo": "https://media.licdn.com/dms/image/v2/D4D03AQHUshmJdVdwGA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1677453497258?e=1732147200&v=beta&t=N5vlujSoWGbVMIv652jrFruKtDfe_Sv8uk4r7AovFWk",
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/79b2bee3-740d-41e1-9103-690bbcd4e729/fanny.jpeg",
           "subtitle": "Cientista da Computação pela UFCG",
           "backgroundColor": "#FFBA00"
         },
         {
           "name": "Daniel Bastos",
           "title": "Software Engineer @ Meta",
-          "photo": "https://media.licdn.com/dms/image/v2/D4E03AQGtINcar86OsQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724222163052?e=1732147200&v=beta&t=SN6ak-jnMG85LxZBp7V3l1R2zm5nub7X_KfmLjGNNxc",
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/80da9577-d7c6-4e74-9971-941c8e3b781c/danielbastos.jpeg",
           "subtitle": "Cientista da Computação pela UFPE"
         },
         {
           "name": "Marcos candeia",
           "title": "Senior Software Engineer @ deco.cx",
-          "photo": "https://media.licdn.com/dms/image/v2/D4D03AQEDrgf7EP4ZNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707864288641?e=1732147200&v=beta&t=fKd9FE-JWiL2W2vkXbEXPwvpFmYytB6BP4-QBLygpwc",
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/abe69d68-69c3-4654-bdde-4c772b516d01/candeia.jpeg",
           "subtitle": "Cientista da Computação pela UFCG"
         },
         {
           "name": "Mateus Antonio",
           "title": "Software Analyst @ Eldorado Research Institute",
           "subtitle": "Engenheiro da Computação pela UFPB",
-          "photo": "https://media.licdn.com/dms/image/v2/C4D03AQGc9vM1LFgT_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1595442629568?e=1732147200&v=beta&t=MvsUDmkpIRLSSYrExF58V1TlvIetTLVN5Bg4PLBPpGQ"
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/96b6e255-7859-412b-8f62-fa0cec10b8c5/mateusantonio.jpeg"
         },
         {
           "name": "Lara Pontes",
-          "photo": "https://media.licdn.com/dms/image/v2/D4E03AQHRIcpSUl2I_g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726365066737?e=1732147200&v=beta&t=XcKsvGsYiMbLynhven4nFshjhUB9KMAGdq7lhKaPmh4",
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/4d69e893-25b4-4fd6-9101-ac7b135cc8c8/lara.jpeg",
           "title": "Researcher @ LOG",
           "subtitle": "Engenheira da Computação pela UFPB"
         },
         {
-          "photo": "https://media.licdn.com/dms/image/v2/D4D03AQHsEQj5rfsDkw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710177512106?e=1732147200&v=beta&t=UDGooopqgWvkoUUgwTpXbYOGoLprMAjU2EG0KsncoR8",
-          "name": "Herval Freire",
-          "title": "Head of Engineering @ mobile.dev",
-          "subtitle": "Cientista da Computação pela UFPB"
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/a01137e4-cd8f-4c74-8780-906388541d3a/mari.jpeg",
+          "name": "Marianne Monteiro",
+          "title": "Research Engineer @ DeepMind",
+          "subtitle": "Cientista da Computação pela UFCG"
         }
       ],
       "alumniPerRow": 3,
@@ -265,7 +265,8 @@
           "images": [
             "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/94a91c98-53f7-4fbc-81ca-1f02b08b3f2a/14c04092-92ff-4264-9f96-e13f78b3626a.png"
           ],
-          "title": "Mantenedores"
+          "title": "Mantenedores",
+          "id": "mantenedores"
         },
         {
           "images": [
@@ -273,15 +274,8 @@
             "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/22ca5dcd-3ad7-460b-bbcf-7cbb11a7f961/0afc19d5-d3fb-40e9-9507-ab6a076fe5fe.png",
             "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/32efcb02-fb9d-41a5-99e0-fb9267b2b538/e644fab3-5977-40de-bfb7-4a296fba0a94.png"
           ],
-          "title": "Onde o momento já chegou"
-        },
-        {
-          "images": [
-            "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/f20f63d0-e97b-4a29-b2ec-815cb90064f6/a3fcec46-ed7d-4cd8-958c-1fc8ab3f6dd9.png",
-            "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/22ca5dcd-3ad7-460b-bbcf-7cbb11a7f961/0afc19d5-d3fb-40e9-9507-ab6a076fe5fe.png",
-            "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/32efcb02-fb9d-41a5-99e0-fb9267b2b538/e644fab3-5977-40de-bfb7-4a296fba0a94.png"
-          ],
-          "title": "Patrocinadores"
+          "title": "Onde o momento já chegou",
+          "id": "universidades"
         }
       ]
     },

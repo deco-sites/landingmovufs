@@ -10,6 +10,7 @@ export interface Props {
   description?: string;
   // tagline?: string;
   image?: ImageWidget;
+  id?: string;
 }
 
 export default function ImageWithParagraph({
@@ -18,9 +19,10 @@ export default function ImageWithParagraph({
   description =
     "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
   image = "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f",
+  id = "#sobre",
 }: Props) {
   return (
-    <div class="container lg:mx-auto mx-4 text-sm mt-4">
+    <div class="container lg:mx-auto mx-4 text-sm mt-4" id={id}>
       <div
         class="flex flex-col md:flex-row text-left items-center justify-between gap-24"
       >

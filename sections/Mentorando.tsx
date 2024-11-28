@@ -50,7 +50,7 @@ export default function ImageWithParagraph({
     },
   ], }: Props) {
   return (
-    <div class="container lg:mx-auto mx-4 text-sm mt-4">
+    <div class="container lg:mx-auto mx-4 text-sm mt-4" id="participe">
       <div
         class="flex flex-col md:flex-row text-left items-center md:items-start justify-between py-20 gap-x-6 gap-y-2"
       >

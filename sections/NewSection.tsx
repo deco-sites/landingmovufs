@@ -19,6 +19,7 @@ export interface Props {
    */
   description?: string;
   items: Banner[];
+  id?: string;
 }
 
 export default function ImageWithParagraph({
@@ -39,7 +40,9 @@ export default function ImageWithParagraph({
       role: "",
       image: ""
     },
-  ], }: Props) {
+  ],
+  id = "depoimentos",
+  }: Props) {
   const count = useSignal(0);
 
   const prevSlide = () => {
@@ -52,7 +55,7 @@ export default function ImageWithParagraph({
 
 
   return (
-    <div class="sm:r-2 sm:pt-2 flex flex-col bg-[#EFEFF080] border border-[#E1E1E4] rounded-3xl">
+    <div class="sm:r-2 sm:pt-2 flex flex-col bg-[#EFEFF080] border border-[#E1E1E4] rounded-3xl" id={id}>
       <div
         class="flex flex-col md:flex-row text-left items-center md:items-start justify-between py-20 gap-x-6"
       >
