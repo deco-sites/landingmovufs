@@ -20,7 +20,7 @@ export default function ImageWithParagraph({
   image = "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f",
 }: Props) {
   return (
-    <div class="sm:r-2 sm:pt-2 ">
+    <div class="container lg:mx-auto mx-4 text-sm mt-4">
       <div
         class="flex flex-col md:flex-row text-left items-center justify-between gap-24"
       >

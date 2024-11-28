@@ -1,7 +1,3 @@
-import type { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
-import Icon, { AvailableIcons } from "site/components/ui/Icon.tsx";
-
 export interface CTA {
   id?: string;
   href: string;
@@ -52,9 +48,9 @@ export default function ImageWithParagraph({
       title: "Mentorias",
       description: "Pessoas que desejam aprender e se conectar com profissionais experientes através de palestras e mentorias.",
     },
-  ],  }: Props) {
+  ], }: Props) {
   return (
-    <div class="sm:r-2 sm:pt-2 flex flex-col">
+    <div class="container lg:mx-auto mx-4 text-sm mt-4">
       <div
         class="flex flex-col md:flex-row text-left items-center md:items-start justify-between py-20 gap-x-6 gap-y-2"
       >
@@ -100,9 +96,8 @@ export default function ImageWithParagraph({
                 id={item.button.id}
                 href={item.button.href}
                 target={item.button.href.includes("http") ? "_blank" : "_self"}
-                class={`font-bold btn btn-sm px-12 py-5 content-center text-[#FAF7FD] ${item.button.outline ? 'btn-accent' : 'btn-primary'} ${
-                  item.button.outline && "btn-outline"
-                }`}
+                class={`font-bold btn btn-sm px-12 py-5 content-center text-[#FAF7FD] ${item.button.outline ? 'btn-accent' : 'btn-primary'} ${item.button.outline && "btn-outline"
+                  }`}
               >
                 {item?.button.text}
               </a>
