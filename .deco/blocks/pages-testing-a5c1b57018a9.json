@@ -74,7 +74,7 @@
             "title": "Mentorado",
             "button": {
               "text": "SEJA MENTORADO",
-              "href": "#",
+              "href": "https://forms.gle/HSttCGvvCxsW9F3bA",
               "outline": true
             },
             "description": "Pessoas que desejam aprender e se conectar com profissionais experientes através de palestras e mentorias."
@@ -83,7 +83,7 @@
             "title": "Mentorias",
             "description": "Pessoas motivadas a ajudar compartilhando experiências ou se envolvendo na organização.",
             "button": {
-              "href": "#",
+              "href": "https://forms.gle/HSttCGvvCxsW9F3bA",
               "text": "SEJA MENTOR",
               "outline": false
             }
@@ -111,14 +111,15 @@
           },
           {
             "title": "Lara di Cavalcanti Pontes",
-            "description": "Com as mentorias, pude identificar com clareza meus objetivos de médio e longo prazo, além de desenvolver estratégias concretas para alcançá-los. Também ampliei minha visão sobre a rotina profissional, adquirindo novas perspectivas e insights. Os feedbacks recebidos foram fundamentais para o meu crescimento em áreas-chave, como comunicação e organização.",
+            "description": "Conversar com gente que me inspira se mostrou a estratégia mais transformadora para o meu planejamento de carreira. Às vezes, essas pessoas oferecem o passo a passo para alcançar ambições individuais. Em outras, trazem uma perspectiva completamente diferente, abrindo a cabeça para possibilidades e objetivos novos.",
             "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/a8acb96d-af0e-4c1e-94d9-3515bec6e337/Screen-Shot-2024-11-27-at-19.34.02.png",
             "role": "Researcher @ LOG UFPB"
           }
         ],
         "title": "Quem somos",
         "subtitle": "Qual o impacto da mentoria na vida das pessoas?",
-        "description": "<p>No futuro, o Brasil é um país protagonista em tecnologia pois é formado por comunidades fortes que colaboram com a educação dos jovens. O Momento está criando essas comunidades.</p>"
+        "description": "<p>No futuro, o Brasil é um país protagonista em tecnologia pois é formado por comunidades fortes que colaboram com a educação dos jovens. O Momento está criando essas comunidades.</p>",
+        "id": "depoimentos"
       }
     },
     {
@@ -128,12 +129,6 @@
         "subtitle": "O QUE FAZEMOS",
         "title": "Experiência e aprendizado em um só lugar",
         "description": "Mentorias, eventos exclusivos e uma comunidade que impulsiona seu crescimento"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/subscribe.tsx"
       }
     },
     {
@@ -208,6 +203,7 @@
       "__resolveType": "site/sections/StylishFaq.tsx",
       "title": "Tem dúvidas?",
       "description": " Frequently Asked Questions  |  Perguntas frequentes",
+      "subtitle": "FAQs",
       "questions": [
         {
           "title": "O que é o nosso projeto?",
@@ -215,7 +211,7 @@
         },
         {
           "title": "Quem pode participar?",
-          "answer": "<p>Nesse momento inicial, nosso movimento focará em duas universidades <strong>Universidade Federal da Paraíba (UFPB)</strong> e <strong>Universidade Federal de Campina Grande (UFCG)</strong>. Vamos selecionar 50 alunos dessas duas instituições para fazer parte de nossa primeira turma. Caso sua universidade não esteja inclusa, você pode preencher o form de interesse abaixo! Vamos estar expandindo o programa em breve.<br><br><a target=\"_self\" rel=\"noopener noreferrer nofollow\" class=\"font-normal btn btn-primary\n                  btn-primary\n                  false\n                  false\n                \" href=\"/faça-parte\">Quero na minha universidade</a></p>"
+          "answer": "<p>Nesse momento inicial, nosso movimento focará em duas universidades <strong>Universidade Federal da Paraíba (UFPB)</strong> e <strong>Universidade Federal de Campina Grande (UFCG)</strong>. Vamos selecionar 50 alunos dessas duas instituições para fazer parte de nossa primeira turma. Caso sua universidade não esteja inclusa, você pode preencher o form de interesse abaixo! Vamos estar expandindo o programa em breve.<br><br><a class=\"font-normal btn btn-primary\n                  btn-primary\n                  false\n                  false\n                \" href=\"https://forms.gle/HSttCGvvCxsW9F3bA\" data-mce-href=\"https://forms.gle/HSttCGvvCxsW9F3bA\" data-mce-selected=\"inline-boundary\">Quero na minha universidade</a></p>"
         },
         {
           "title": "O que é uma Mentoria?",
@@ -231,7 +227,7 @@
         },
         {
           "title": "Como participar?",
-          "answer": "<p>Ficamos <strong>muito felizes</strong> em saber que você se interessou! Para participar basta estar <strong>alinhado</strong> a algum dos <strong>perfis</strong> que estamos buscando e por conta disso precisamos te conhecer um pouco mais...</p><p></p><p><br><br><a target=\"_self\" rel=\"noopener noreferrer nofollow\" class=\"font-normal btn btn-primary\n                  btn-primary\n                  false\n                  false\n                \" href=\"#mentorado\">Seja Mentorado</a> <a target=\"_self\" rel=\"noopener noreferrer nofollow\" class=\"font-normal btn btn-primary\n                  false\n                  btn-outline\n                  false\n                \" href=\"#mentor\">Seja Mentor</a></p>"
+          "answer": "<p>Ficamos <strong>muito felizes</strong> em saber que você se interessou! Para participar basta estar <strong>alinhado</strong> a algum dos <strong>perfis</strong> que estamos buscando e por conta disso precisamos te conhecer um pouco mais...</p><p><br data-mce-bogus=\"1\"></p><p><br><br><a class=\"font-normal btn btn-primary\n                  btn-primary\n                  false\n                  false\n                \" href=\"https://forms.gle/HSttCGvvCxsW9F3bA\" data-mce-href=\"https://forms.gle/HSttCGvvCxsW9F3bA\">Seja Mentorado</a> <a class=\"font-normal btn btn-primary\n                  false\n                  btn-outline\n                  false\n                \" href=\"https://forms.gle/HSttCGvvCxsW9F3bA\" data-mce-href=\"https://forms.gle/HSttCGvvCxsW9F3bA\" data-mce-selected=\"inline-boundary\">Seja Mentor</a></p>"
         },
         {
           "title": "Como são feitas as turmas para cada Mentor?",
@@ -251,15 +247,14 @@
         "href": "/saiba-mais",
         "text": "Saiba mais"
       },
-      "titlePosition": "column",
-      "subtitle": "FAQs"
+      "titlePosition": "column"
     },
     {
       "__resolveType": "site/sections/Maintainers.tsx",
+      "title": "Mantenedores",
       "images": [
         "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10577/14c04092-92ff-4264-9f96-e13f78b3626a"
       ],
-      "title": "Mantenedores",
       "sections": [
         {
           "images": [
