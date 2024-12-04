@@ -20,6 +20,7 @@ export interface Props {
    */
   description?: string;
   items: Banner[];
+  id?: string;
 }
 
 export default function ImageWithParagraph({
@@ -27,6 +28,7 @@ export default function ImageWithParagraph({
   subtitle = "Here's an intermediate size heading you can edit",
   description =
   "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+  id = "participe",
   items = [
     {
       button: {
@@ -50,7 +52,7 @@ export default function ImageWithParagraph({
     },
   ], }: Props) {
   return (
-    <div class="container lg:mx-auto mx-4 text-sm mt-4" id="participe">
+    <div class="container lg:mx-auto mx-4 text-sm mt-4" id={id}>
       <div
         class="flex flex-col md:flex-row text-left items-center md:items-start justify-between py-20 gap-x-6 gap-y-2"
       >

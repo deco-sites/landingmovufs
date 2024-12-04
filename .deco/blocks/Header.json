@@ -4,8 +4,8 @@
     "buttons": [
       {
         "text": "Participe",
-        "href": "/#participe",
-        "outline": false
+        "outline": false,
+        "href": "/#participe"
       }
     ],
     "leftLinks": [

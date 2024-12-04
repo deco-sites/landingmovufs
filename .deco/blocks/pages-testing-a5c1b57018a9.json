@@ -10,11 +10,11 @@
       "title": "<p>Conectando</p><p>Alunos, Sonhos e Futuro</p>",
       "cta": [
         {
-          "href": "#participe",
+          "href": "/#participe",
           "text": "PARTICIPE"
         },
         {
-          "href": "#sobre",
+          "href": "/#sobre",
           "text": "SAIBA MAIS",
           "outline": true
         }
@@ -52,7 +52,7 @@
           {
             "icon": "ArrowLeft",
             "button": {
-              "href": "#",
+              "href": "https://forms.gle/HSttCGvvCxsW9F3bA",
               "text": "SEJA MENTORADO"
             },
             "title": "Mentorado",
@@ -61,7 +61,7 @@
           {
             "icon": "ArrowLeft",
             "button": {
-              "href": "#",
+              "href": "https://forms.gle/HSttCGvvCxsW9F3bA",
               "text": "SEJA MENTOR",
               "outline": true
             },
@@ -135,9 +135,8 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/NextEvents.tsx",
-        "title": "Próximos eventos",
-        "subtitle": "QUEM SOMOS",
-        "description": "Descubra os ex-alunos que estarão presentes como mentores nos próximos eventos.",
+        "title": "Eventos passados",
+        "description": "Um gostinho dos eventos passados que tivemos!",
         "items": [
           {
             "title": "Live coding do Momento",
@@ -145,11 +144,12 @@
             "date": "16/10",
             "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/290b3787-537a-4889-8d6f-fd1293f5a4e0/Rectangle-8974.png",
             "cta": {
-              "href": "#",
-              "text": "PARTICIPE"
+              "href": "https://youtu.be/jSHUps0M6xw?si=uEn8dpOI-yB-fYof",
+              "text": "Acesse"
             }
           }
-        ]
+        ],
+        "subtitle": "QUEM SOMOS"
       }
     },
     {
@@ -170,7 +170,7 @@
           "subtitle": "Cientista da Computação pela UFPE"
         },
         {
-          "name": "Marcos candeia",
+          "name": "Marcos Candeia",
           "title": "Senior Software Engineer @ deco.cx",
           "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/abe69d68-69c3-4654-bdde-4c772b516d01/candeia.jpeg",
           "subtitle": "Cientista da Computação pela UFCG"
@@ -227,7 +227,7 @@
         },
         {
           "title": "Como participar?",
-          "answer": "<p>Ficamos <strong>muito felizes</strong> em saber que você se interessou! Para participar basta estar <strong>alinhado</strong> a algum dos <strong>perfis</strong> que estamos buscando e por conta disso precisamos te conhecer um pouco mais...</p><p><br data-mce-bogus=\"1\"></p><p><br><br><a class=\"font-normal btn btn-primary\n                  btn-primary\n                  false\n                  false\n                \" href=\"https://forms.gle/HSttCGvvCxsW9F3bA\" data-mce-href=\"https://forms.gle/HSttCGvvCxsW9F3bA\">Seja Mentorado</a> <a class=\"font-normal btn btn-primary\n                  false\n                  btn-outline\n                  false\n                \" href=\"https://forms.gle/HSttCGvvCxsW9F3bA\" data-mce-href=\"https://forms.gle/HSttCGvvCxsW9F3bA\" data-mce-selected=\"inline-boundary\">Seja Mentor</a></p>"
+          "answer": "<p>Ficamos <strong>muito felizes</strong> em saber que você se interessou! Para participar basta estar <strong>alinhado</strong> a algum dos <strong>perfis</strong> que estamos buscando e por conta disso precisamos te conhecer um pouco mais...</p><p></p><p><br><br><a target=\"_self\" rel=\"noopener noreferrer nofollow\" class=\"font-normal btn btn-primary\n                  btn-primary\n                  false\n                  false\n                \" href=\"#mentorado\">Seja Mentorado</a> <a target=\"_self\" rel=\"noopener noreferrer nofollow\" class=\"font-normal btn btn-primary\n                  false\n                  btn-outline\n                  false\n                \" href=\"#mentor\">Seja Mentor</a></p>"
         },
         {
           "title": "Como são feitas as turmas para cada Mentor?",
@@ -279,23 +279,23 @@
       "links": [
         {
           "label": "Sobre",
-          "href": "#"
+          "href": "/#sobre"
         },
         {
           "label": "Depoimentos",
-          "href": "#"
+          "href": "/#depoimentos"
         },
         {
           "label": "Mantenedores",
-          "href": "#"
+          "href": "/#mantenedores"
         },
         {
           "label": "FAQ",
-          "href": "#"
+          "href": "/#faq"
         },
         {
-          "href": "#",
-          "label": "Parceiros"
+          "href": "/#universidades",
+          "label": "Universidades"
         }
       ],
       "bottomLinks": [
@@ -306,21 +306,17 @@
       ],
       "social": [
         {
-          "network": "Facebook",
-          "href": "#"
+          "network": "Youtube",
+          "href": "https://www.youtube.com/@momento-sh"
         },
         {
           "network": "Instagram",
-          "href": "#"
-        },
-        {
-          "network": "X - Twitter",
-          "href": "#"
+          "href": "https://www.instagram.com/momento.sh"
         },
         {
           "network": "Email",
           "email": "contato@momento.sh",
-          "href": "/"
+          "href": "mailto:contato@momento.sh"
         }
       ],
       "subscribe": {},
