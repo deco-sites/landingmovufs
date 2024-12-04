@@ -10,11 +10,11 @@
       "title": "<p>Conectando</p><p>Alunos, Sonhos e Futuro</p>",
       "cta": [
         {
-          "href": "/#participe",
+          "href": "#participe",
           "text": "PARTICIPE"
         },
         {
-          "href": "/#sobre",
+          "href": "#sobre",
           "text": "SAIBA MAIS",
           "outline": true
         }
@@ -42,85 +42,80 @@
       "subtitle": "Sobre o momento"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Mentorando.tsx",
-        "title": "Quem somos",
-        "subtitle": "Junte-se ao Momento!",
-        "description": "<p><span style=\"font-size: 10pt\">O Momento é formado por alunos e ex-alunos de universidades públicas brasileiras. Contamos com o apoio de empresas e organizações alinhadas ao nosso propósito com a educação. Nosso principal meio de comunicação é a newsletter, que você pode se inscrever com seu e-mail.</span></p><p><span style=\"font-size: 10pt\"><br>Para esse momento inicial, estamos buscando dois perfis:</span></p>",
-        "cards": [
-          {
-            "icon": "ArrowLeft",
-            "button": {
-              "href": "https://forms.gle/HSttCGvvCxsW9F3bA",
-              "text": "SEJA MENTORADO"
-            },
-            "title": "Mentorado",
-            "description": "Pessoas motivadas a ajudar compartilhando experiências ou se envolvendo na organização."
+      "__resolveType": "site/sections/Mentorando.tsx",
+      "title": "Quem somos",
+      "subtitle": "Junte-se ao Momento!",
+      "description": "<p><span style=\"font-size: 10pt\">O Momento é formado por alunos e ex-alunos de universidades públicas brasileiras. Contamos com o apoio de empresas e organizações alinhadas ao nosso propósito com a educação. Nosso principal meio de comunicação é a newsletter, que você pode se inscrever com seu e-mail.</span></p><p><span style=\"font-size: 10pt\"><br>Para esse momento inicial, estamos buscando dois perfis:</span></p>",
+      "cards": [
+        {
+          "icon": "ArrowLeft",
+          "button": {
+            "href": "https://forms.gle/HSttCGvvCxsW9F3bA",
+            "text": "SEJA MENTORADO"
           },
-          {
-            "icon": "ArrowLeft",
-            "button": {
-              "href": "https://forms.gle/HSttCGvvCxsW9F3bA",
-              "text": "SEJA MENTOR",
-              "outline": true
-            },
-            "title": "Mentorias",
-            "description": "Pessoas que desejam aprender e se conectar com profissionais experientes através de palestras e mentorias."
-          }
-        ],
-        "items": [
-          {
-            "title": "Mentorado",
-            "button": {
-              "text": "SEJA MENTORADO",
-              "href": "https://forms.gle/HSttCGvvCxsW9F3bA",
-              "outline": true
-            },
-            "description": "Pessoas que desejam aprender e se conectar com profissionais experientes através de palestras e mentorias."
+          "title": "Mentorado",
+          "description": "Pessoas motivadas a ajudar compartilhando experiências ou se envolvendo na organização."
+        },
+        {
+          "icon": "ArrowLeft",
+          "button": {
+            "href": "https://forms.gle/HSttCGvvCxsW9F3bA",
+            "text": "SEJA MENTOR",
+            "outline": true
           },
-          {
-            "title": "Mentorias",
-            "description": "Pessoas motivadas a ajudar compartilhando experiências ou se envolvendo na organização.",
-            "button": {
-              "href": "https://forms.gle/HSttCGvvCxsW9F3bA",
-              "text": "SEJA MENTOR",
-              "outline": false
-            }
+          "title": "Mentorias",
+          "description": "Pessoas que desejam aprender e se conectar com profissionais experientes através de palestras e mentorias."
+        }
+      ],
+      "items": [
+        {
+          "title": "Mentorado",
+          "button": {
+            "text": "SEJA MENTORADO",
+            "href": "https://forms.gle/HSttCGvvCxsW9F3bA",
+            "outline": true
+          },
+          "description": "Pessoas que desejam aprender e se conectar com profissionais experientes através de palestras e mentorias."
+        },
+        {
+          "title": "Mentorias",
+          "description": "Pessoas motivadas a ajudar compartilhando experiências ou se envolvendo na organização.",
+          "button": {
+            "href": "https://forms.gle/HSttCGvvCxsW9F3bA",
+            "text": "SEJA MENTOR",
+            "outline": false
           }
-        ]
-      }
+        }
+      ],
+      "id": "participe"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/NewSection.tsx",
-        "cards": [],
-        "items": [
-          {
-            "title": "Itamar Rocha Filho",
-            "description": "Ter a oportunidade de aprender com pessoas mais experientes e ser mentorado por ex-alunos/excelentes profissionais de outras universidades do Brasil e de fora foi essencial para minha trajetória. Com esses ensinamentos pude encurtar meus caminhos e entender lições complexas sobre carreira e liderança bem mais cedo.",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/3a54773d-e71b-4620-b1d7-e317ae8bcf37/image-(2).png",
-            "role": "Engenheiro de Software na deco | Anteriormente na Google e na Meta"
-          },
-          {
-            "title": "João Pedro Vasconcelos",
-            "description": "A partir das mentorias, consegui primeiramente descobrir quais são meus objetivos de médio e longo prazo e aprendi a traçar planos para atingi-los. Além disso, aprendi novas perspectivas sobre o dia a dia de trabalho e recebi feedback valioso em áreas profissionais como comunicação e metodologias de trabalho.",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/a084e90a-2398-42af-8696-5e451f1e84a7/image-(3).png",
-            "role": "Engenheiro de Software na Microsoft | Anteriormente no MIT e na Amazon"
-          },
-          {
-            "title": "Lara di Cavalcanti Pontes",
-            "description": "Conversar com gente que me inspira se mostrou a estratégia mais transformadora para o meu planejamento de carreira. Às vezes, essas pessoas oferecem o passo a passo para alcançar ambições individuais. Em outras, trazem uma perspectiva completamente diferente, abrindo a cabeça para possibilidades e objetivos novos.",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/a8acb96d-af0e-4c1e-94d9-3515bec6e337/Screen-Shot-2024-11-27-at-19.34.02.png",
-            "role": "Researcher @ LOG UFPB"
-          }
-        ],
-        "title": "Quem somos",
-        "subtitle": "Qual o impacto da mentoria na vida das pessoas?",
-        "description": "<p>No futuro, o Brasil é um país protagonista em tecnologia pois é formado por comunidades fortes que colaboram com a educação dos jovens. O Momento está criando essas comunidades.</p>",
-        "id": "depoimentos"
-      }
+      "__resolveType": "site/sections/NewSection.tsx",
+      "cards": [],
+      "items": [
+        {
+          "title": "Itamar Rocha Filho",
+          "description": "Ter a oportunidade de aprender com pessoas mais experientes e ser mentorado por ex-alunos/excelentes profissionais de outras universidades do Brasil e de fora foi essencial para minha trajetória. Com esses ensinamentos pude encurtar meus caminhos e entender lições complexas sobre carreira e liderança bem mais cedo.",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/3a54773d-e71b-4620-b1d7-e317ae8bcf37/image-(2).png",
+          "role": "Engenheiro de Software na deco | Anteriormente na Google e na Meta"
+        },
+        {
+          "title": "João Pedro Vasconcelos",
+          "description": "A partir das mentorias, consegui primeiramente descobrir quais são meus objetivos de médio e longo prazo e aprendi a traçar planos para atingi-los. Além disso, aprendi novas perspectivas sobre o dia a dia de trabalho e recebi feedback valioso em áreas profissionais como comunicação e metodologias de trabalho.",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/a084e90a-2398-42af-8696-5e451f1e84a7/image-(3).png",
+          "role": "Engenheiro de Software na Microsoft | Anteriormente no MIT e na Amazon"
+        },
+        {
+          "title": "Lara di Cavalcanti Pontes",
+          "description": "Conversar com gente que me inspira se mostrou a estratégia mais transformadora para o meu planejamento de carreira. Às vezes, essas pessoas oferecem o passo a passo para alcançar ambições individuais. Em outras, trazem uma perspectiva completamente diferente, abrindo a cabeça para possibilidades e objetivos novos.",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/a8acb96d-af0e-4c1e-94d9-3515bec6e337/Screen-Shot-2024-11-27-at-19.34.02.png",
+          "role": "Researcher @ LOG UFPB"
+        }
+      ],
+      "title": "Quem somos",
+      "subtitle": "Qual o impacto da mentoria na vida das pessoas?",
+      "description": "<p>No futuro, o Brasil é um país protagonista em tecnologia pois é formado por comunidades fortes que colaboram com a educação dos jovens. O Momento está criando essas comunidades.</p>",
+      "id": "depoimentos"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -153,51 +148,54 @@
       }
     },
     {
-      "__resolveType": "site/sections/AlumniGrid.tsx",
-      "title": "Mentores",
-      "alumni": [
-        {
-          "name": "Fanny Vieira",
-          "title": "Senior Software Engineer @ Pokémon",
-          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/79b2bee3-740d-41e1-9103-690bbcd4e729/fanny.jpeg",
-          "subtitle": "Cientista da Computação pela UFCG",
-          "backgroundColor": "#FFBA00"
-        },
-        {
-          "name": "Daniel Bastos",
-          "title": "Software Engineer @ Meta",
-          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/80da9577-d7c6-4e74-9971-941c8e3b781c/danielbastos.jpeg",
-          "subtitle": "Cientista da Computação pela UFPE"
-        },
-        {
-          "name": "Marcos Candeia",
-          "title": "Senior Software Engineer @ deco.cx",
-          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/abe69d68-69c3-4654-bdde-4c772b516d01/candeia.jpeg",
-          "subtitle": "Cientista da Computação pela UFCG"
-        },
-        {
-          "name": "Mateus Antonio",
-          "title": "Software Analyst @ Eldorado Research Institute",
-          "subtitle": "Engenheiro da Computação pela UFPB",
-          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/96b6e255-7859-412b-8f62-fa0cec10b8c5/mateusantonio.jpeg"
-        },
-        {
-          "name": "Lara Pontes",
-          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/4d69e893-25b4-4fd6-9101-ac7b135cc8c8/lara.jpeg",
-          "title": "Researcher @ LOG",
-          "subtitle": "Engenheira da Computação pela UFPB"
-        },
-        {
-          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/a01137e4-cd8f-4c74-8780-906388541d3a/mari.jpeg",
-          "name": "Marianne Monteiro",
-          "title": "Research Engineer @ DeepMind",
-          "subtitle": "Cientista da Computação pela UFCG"
-        }
-      ],
-      "alumniPerRow": 3,
-      "description": "Conheça alguns dos ex-alunos que participam do movimento como mentores",
-      "id": "mentores",
-      "subtitle": "QUEM SOMOS"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/AlumniGrid.tsx",
+        "title": "Mentores",
+        "alumni": [
+          {
+            "name": "Fanny Vieira",
+            "title": "Senior Software Engineer @ Pokémon",
+            "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/79b2bee3-740d-41e1-9103-690bbcd4e729/fanny.jpeg",
+            "subtitle": "Cientista da Computação pela UFCG",
+            "backgroundColor": "#FFBA00"
+          },
+          {
+            "name": "Daniel Bastos",
+            "title": "Software Engineer @ Meta",
+            "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/80da9577-d7c6-4e74-9971-941c8e3b781c/danielbastos.jpeg",
+            "subtitle": "Cientista da Computação pela UFPE"
+          },
+          {
+            "name": "Marcos Candeia",
+            "title": "Senior Software Engineer @ deco.cx",
+            "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/abe69d68-69c3-4654-bdde-4c772b516d01/candeia.jpeg",
+            "subtitle": "Cientista da Computação pela UFCG"
+          },
+          {
+            "name": "Mateus Antonio",
+            "title": "Software Analyst @ Eldorado Research Institute",
+            "subtitle": "Engenheiro da Computação pela UFPB",
+            "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/96b6e255-7859-412b-8f62-fa0cec10b8c5/mateusantonio.jpeg"
+          },
+          {
+            "name": "Lara Pontes",
+            "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/4d69e893-25b4-4fd6-9101-ac7b135cc8c8/lara.jpeg",
+            "title": "Researcher @ LOG",
+            "subtitle": "Engenheira da Computação pela UFPB"
+          },
+          {
+            "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/a01137e4-cd8f-4c74-8780-906388541d3a/mari.jpeg",
+            "name": "Marianne Monteiro",
+            "title": "Research Engineer @ DeepMind",
+            "subtitle": "Cientista da Computação pela UFCG"
+          }
+        ],
+        "alumniPerRow": 3,
+        "description": "Conheça alguns dos ex-alunos que participam do movimento como mentores",
+        "id": "mentores",
+        "subtitle": "QUEM SOMOS"
+      }
     },
     {
       "__resolveType": "site/sections/StylishFaq.tsx",
@@ -275,53 +273,56 @@
       ]
     },
     {
-      "__resolveType": "site/sections/Footer.tsx",
-      "links": [
-        {
-          "label": "Sobre",
-          "href": "/#sobre"
-        },
-        {
-          "label": "Depoimentos",
-          "href": "/#depoimentos"
-        },
-        {
-          "label": "Mantenedores",
-          "href": "/#mantenedores"
-        },
-        {
-          "label": "FAQ",
-          "href": "/#faq"
-        },
-        {
-          "href": "/#universidades",
-          "label": "Universidades"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Footer.tsx",
+        "links": [
+          {
+            "label": "Sobre",
+            "href": "#sobre"
+          },
+          {
+            "label": "Depoimentos",
+            "href": "#depoimentos"
+          },
+          {
+            "label": "Mantenedores",
+            "href": "#mantenedores"
+          },
+          {
+            "label": "FAQ",
+            "href": "#faq"
+          },
+          {
+            "href": "#universidades",
+            "label": "Universidades"
+          }
+        ],
+        "bottomLinks": [
+          {
+            "label": "Política de Privacidade",
+            "href": "#"
+          }
+        ],
+        "social": [
+          {
+            "network": "Youtube",
+            "href": "https://www.youtube.com/@momento-sh"
+          },
+          {
+            "network": "Instagram",
+            "href": "https://www.instagram.com/momento.sh"
+          },
+          {
+            "network": "Email",
+            "email": "contato@momento.sh",
+            "href": "mailto:contato@momento.sh"
+          }
+        ],
+        "subscribe": {},
+        "logo": {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/4d40c83e-df52-4012-b37c-719510a917eb/Frame-2609661-(1).png"
         }
-      ],
-      "bottomLinks": [
-        {
-          "label": "Política de Privacidade",
-          "href": "#"
-        }
-      ],
-      "social": [
-        {
-          "network": "Youtube",
-          "href": "https://www.youtube.com/@momento-sh"
-        },
-        {
-          "network": "Instagram",
-          "href": "https://www.instagram.com/momento.sh"
-        },
-        {
-          "network": "Email",
-          "email": "contato@momento.sh",
-          "href": "mailto:contato@momento.sh"
-        }
-      ],
-      "subscribe": {},
-      "logo": {
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/landingmovufs/4d40c83e-df52-4012-b37c-719510a917eb/Frame-2609661-(1).png"
       }
     }
   ],

@@ -54,7 +54,7 @@ export default function ImageWithParagraph({
   return (
     <div class="container lg:mx-auto mx-4 text-sm mt-4" id={id}>
       <div
-        class="flex flex-col md:flex-row text-left items-center md:items-start justify-between py-20 gap-x-6 gap-y-2"
+        class="flex flex-col md:flex-row text-left items-center md:items-start justify-between py-20 gap-x-6 gap-y-2" id={id}
       >
         <div class="flex flex-col max-w-xl pl-4 items-center sm:items-start sm:pl-10 md:pl-20 gap-x-4">
           <p class="text-base font-extrabold text-primary">
